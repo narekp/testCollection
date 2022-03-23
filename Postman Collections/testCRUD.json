@@ -2253,12 +2253,12 @@
             {
               "listen": "test",
               "script": {
+                "id": "a0c2ac2e-caf4-4b58-86b8-125c13f65f85",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 500\"] = responseCode.code === 500;"
                 ],
-                "type": "text/javascript",
-                "id": "a0c2ac2e-caf4-4b58-86b8-125c13f65f85"
+                "type": "text/javascript"
               }
             }
           ],
@@ -2282,7 +2282,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"ssp\": 1977267,\n    \"name\": \"Postman: SiteApp Sprint 8 2020-11-30T15:56:21.803Z\",\n    \"type\": \"DESKTOP_WEB\",\n    \"domain\": null,\n    \"status\": \"INACTIVE\",\n    \"categories\": [],\n    \"blockedCategories\": [],\n    \"languages\": [],\n    \"group\": null,\n    \"dsps\": null,\n    \"thirdPartyId\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"appBundle\": null,\n    \"appStoreUrl\": null,\n    \"publisherInventories\": []\n}",
+              "raw": "//do not see the purpose of having this test and why do we need to send appBundle for example\n{\n    \"ssp\": 1977267,\n    \"name\": \"Postman: SiteApp Sprint 8 2020-11-30T15:56:21.803Z\",\n    \"type\": \"DESKTOP_WEB\",\n    \"domain\": null,\n    \"status\": \"INACTIVE\",\n    \"categories\": [],\n    \"blockedCategories\": [],\n    \"languages\": [],\n    \"group\": null,\n    \"dsps\": null,\n    \"thirdPartyId\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"appBundle\": null,\n    \"appStoreUrl\": null,\n    \"publisherInventories\": []\n}",
               "options": {
                 "raw": {
                   "language": "json"
