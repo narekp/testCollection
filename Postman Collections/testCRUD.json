@@ -909,7 +909,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"status\": \"ACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"targetingsConj\": \"AND\",\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    }\n}",
               "options": {
                 "raw": {
                   "language": "json"
