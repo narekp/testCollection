@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "3eb7fa89-9f06-46f8-ac23-181ddfdc08eb",
+    "name": "TestCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "testFolder",
+      "item": [
+        {
+          "name": "google0",
+          "_postman_id": "ee5aa738-2f75-408b-9618-b31a6aa6e239",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "https://google.com/"
+          },
+          "response": []
+        },
+        {
+          "name": "google1",
+          "_postman_id": "5fabadd0-cb46-4df9-b3e1-261cd9e31b0c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "https://adoppler.postman.co/"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "f1c2f29a-ebf7-4982-baf1-fd4bc727f3b8"
+    }
+  ]
+}
