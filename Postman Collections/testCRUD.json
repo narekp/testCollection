@@ -56,7 +56,7 @@
               }
             }
           ],
-          "_postman_id": "0de2c201-56dc-4d2e-b962-3b6f48c26bf6",
+          "id": "0de2c201-56dc-4d2e-b962-3b6f48c26bf6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -73,8 +73,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -108,7 +107,7 @@
               }
             }
           ],
-          "_postman_id": "f631fafc-f70b-4c55-bc20-11a42ec6fb95",
+          "id": "f631fafc-f70b-4c55-bc20-11a42ec6fb95",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -128,8 +127,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"ACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"ACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/dsps"
           },
@@ -169,7 +167,7 @@
               }
             }
           ],
-          "_postman_id": "376d1235-e556-4fa9-8ebe-27936f198f40",
+          "id": "376d1235-e556-4fa9-8ebe-27936f198f40",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -213,7 +211,7 @@
               }
             }
           ],
-          "_postman_id": "d986bc8e-550e-4ed5-88f4-bc61e405b319",
+          "id": "d986bc8e-550e-4ed5-88f4-bc61e405b319",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -266,7 +264,7 @@
               }
             }
           ],
-          "_postman_id": "1a0e8618-7891-49f2-b9d2-9df4926facbe",
+          "id": "1a0e8618-7891-49f2-b9d2-9df4926facbe",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -317,7 +315,7 @@
               }
             }
           ],
-          "_postman_id": "b4a701d0-6ac6-4e6a-b693-086f7e8c061d",
+          "id": "b4a701d0-6ac6-4e6a-b693-086f7e8c061d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -369,7 +367,7 @@
               }
             }
           ],
-          "_postman_id": "c0725943-145b-4bf6-8370-5cd2bd6ab322",
+          "id": "c0725943-145b-4bf6-8370-5cd2bd6ab322",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -389,8 +387,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"SECOND_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"INACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"SECOND_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"INACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/dsps/{{dspId}}"
           },
@@ -411,7 +408,7 @@
               }
             }
           ],
-          "_postman_id": "0c55b2b7-5ed0-468b-b4c4-a00fa284d18b",
+          "id": "0c55b2b7-5ed0-468b-b4c4-a00fa284d18b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -448,7 +445,7 @@
               }
             }
           ],
-          "_postman_id": "b8b75203-c982-42fd-b606-cbeb9313e607",
+          "id": "b8b75203-c982-42fd-b606-cbeb9313e607",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -494,7 +491,7 @@
               }
             }
           ],
-          "_postman_id": "531ba18e-42a5-4250-8c48-2f36ddd91f00",
+          "id": "531ba18e-42a5-4250-8c48-2f36ddd91f00",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -550,7 +547,7 @@
               }
             }
           ],
-          "_postman_id": "d97c583e-a4d8-48db-ad66-ae7130645df6",
+          "id": "d97c583e-a4d8-48db-ad66-ae7130645df6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -594,7 +591,7 @@
               }
             }
           ],
-          "_postman_id": "8b211780-e99d-405c-bdf7-a17b85c23a35",
+          "id": "8b211780-e99d-405c-bdf7-a17b85c23a35",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -646,7 +643,7 @@
               }
             }
           ],
-          "_postman_id": "259dc0b3-02de-4d3a-9ad8-a1ea7d804893",
+          "id": "259dc0b3-02de-4d3a-9ad8-a1ea7d804893",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -666,8 +663,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"bidfloor\": 0,\n  \"compression\": true,\n  \"contacts\": {\n    \"country\": \"BY\",\n    \"email\": \"so@adoppler.com\",\n    \"phone\": \"+375291111111\",\n    \"responsiblePerson\": \"QA QA\",\n    \"skype\": \"qa_qa\"\n  },\n \"cookieSyncBidirect\": false,\n  \"cookieSyncEnabled\": false,\n  \"cookieSyncRedirectParam\": null,\n  \"cookieSyncUrl\": null,\n  \"cookieSyncUserMacro\": null,\n  \"defaultAppBundleMapping\": \"string\",\n  \"dynamicRps\": true,\n  \"embedded\": true,\n  \"externalId\": null,\n  \"id\": 0,\n  \"ortbVersion\": null,\n  \"price\": 0,\n  \"privateAuction\": true,\n  \"requestFilter\": {\n    \"adTypes\": [\n      \"BANNER\"\n    ],\n    \"carriersAllow\": true,\n     \"countries\": [\n      \"BY\",\n      \"BE\"\n    ],\n    \"devices\": [\n      \"MOBILE_TABLET\"\n    ],\n    \"inventoryTypes\": {\n      \"allow\": true,\n      \"values\": [\n        \"DESKTOP_WEB\"\n      ]\n    },\n    \"oses\": [\n      \"ANDROID\"\n    ],\n    \"sizes\": [\n      {\n        \"width\": 576,\n        \"height\": 1024\n      }\n    ],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": [\n        0\n      ]\n    }\n  },\n  \"requireIfa\": true,\n  \"rpsLimit\": null,\n  \"share\": 0,\n  \"sharedForAll\": true,\n  \"status\": \"INACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"bidfloor\": 0,\n  \"compression\": true,\n  \"contacts\": {\n    \"country\": \"BY\",\n    \"email\": \"so@adoppler.com\",\n    \"phone\": \"+375291111111\",\n    \"responsiblePerson\": \"QA QA\",\n    \"skype\": \"qa_qa\"\n  },\n \"cookieSyncBidirect\": false,\n  \"cookieSyncEnabled\": false,\n  \"cookieSyncRedirectParam\": null,\n  \"cookieSyncUrl\": null,\n  \"cookieSyncUserMacro\": null,\n  \"defaultAppBundleMapping\": \"string\",\n  \"dynamicRps\": true,\n  \"embedded\": true,\n  \"externalId\": null,\n  \"id\": 0,\n  \"ortbVersion\": null,\n  \"price\": 0,\n  \"privateAuction\": true,\n  \"requestFilter\": {\n    \"adTypes\": [\n      \"BANNER\"\n    ],\n    \"carriersAllow\": true,\n     \"countries\": [\n      \"BY\",\n      \"BE\"\n    ],\n    \"devices\": [\n      \"MOBILE_TABLET\"\n    ],\n    \"inventoryTypes\": {\n      \"allow\": true,\n      \"values\": [\n        \"DESKTOP_WEB\"\n      ]\n    },\n    \"oses\": [\n      \"ANDROID\"\n    ],\n    \"sizes\": [\n      {\n        \"width\": 576,\n        \"height\": 1024\n      }\n    ],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": [\n        0\n      ]\n    }\n  },\n  \"requireIfa\": true,\n  \"rpsLimit\": null,\n  \"share\": 0,\n  \"sharedForAll\": true,\n  \"status\": \"INACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/dsps/{{dspId}}"
           },
@@ -688,7 +684,7 @@
               }
             }
           ],
-          "_postman_id": "5b314d93-1e2b-4bc5-82fa-d57f2ce93490",
+          "id": "5b314d93-1e2b-4bc5-82fa-d57f2ce93490",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -725,45 +721,7 @@
               }
             }
           ],
-          "_postman_id": "14489a35-180a-49c4-a619-a9ca60e49ee0",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "X-Authorization",
-                "type": "text",
-                "value": "Bearer {{token}}"
-              },
-              {
-                "key": "Content-Type",
-                "type": "text",
-                "value": "application/json"
-              }
-            ],
-            "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/dsps/{{dspId}}"
-          },
-          "response": []
-        },
-        {
-          "name": "DUPLICATE_Get_dsp_type_TAG_deleted Copy",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "exec": [
-                  "//Status code //edit",
-                  "tests[\"Status code is 404\"] = responseCode.code === 404;",
-                  "//narekpetrosyan test duplicate for checking sync and commits to github"
-                ],
-                "type": "text/javascript",
-                "id": "b9accc02-8221-491d-b534-31bd7db0eef4"
-              }
-            }
-          ],
-          "_postman_id": "17769310-876d-4c01-8f75-2c3b48773870",
+          "id": "14489a35-180a-49c4-a619-a9ca60e49ee0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -800,7 +758,7 @@
               }
             }
           ],
-          "_postman_id": "2e56cbd7-8e7b-45f2-ba5a-a3625f598ab9",
+          "id": "2e56cbd7-8e7b-45f2-ba5a-a3625f598ab9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -823,7 +781,7 @@
           "response": []
         }
       ],
-      "_postman_id": "0f841ad2-56ee-4877-b03f-b5e6d060e6f7"
+      "id": "0f841ad2-56ee-4877-b03f-b5e6d060e6f7"
     },
     {
       "name": "Publisher (CRUD)",
@@ -870,7 +828,7 @@
               }
             }
           ],
-          "_postman_id": "dac103db-3d13-4b60-a512-de6c57b23386",
+          "id": "dac103db-3d13-4b60-a512-de6c57b23386",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -887,8 +845,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -929,7 +886,7 @@
               }
             }
           ],
-          "_postman_id": "0bfd4853-5d96-4a0d-a5e6-20c5404f9d0a",
+          "id": "0bfd4853-5d96-4a0d-a5e6-20c5404f9d0a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -993,7 +950,7 @@
               }
             }
           ],
-          "_postman_id": "cc62b292-1422-41d1-9226-a22bd2abcb53",
+          "id": "cc62b292-1422-41d1-9226-a22bd2abcb53",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1049,7 +1006,7 @@
               }
             }
           ],
-          "_postman_id": "f1c4e500-966f-4aa4-be03-a4acd384b671",
+          "id": "f1c4e500-966f-4aa4-be03-a4acd384b671",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1113,7 +1070,7 @@
               }
             }
           ],
-          "_postman_id": "4934a13c-ff24-4c10-ac86-d434159b99ec",
+          "id": "4934a13c-ff24-4c10-ac86-d434159b99ec",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1178,7 +1135,7 @@
               }
             }
           ],
-          "_postman_id": "c60fb7d5-a584-4f6f-9a19-a68835b7141b",
+          "id": "c60fb7d5-a584-4f6f-9a19-a68835b7141b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1237,7 +1194,7 @@
               }
             }
           ],
-          "_postman_id": "3243d266-eedf-4f30-98c6-7415414f2036",
+          "id": "3243d266-eedf-4f30-98c6-7415414f2036",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1287,7 +1244,7 @@
               }
             }
           ],
-          "_postman_id": "7c3acd1d-fe52-4e7a-a941-895694228c54",
+          "id": "7c3acd1d-fe52-4e7a-a941-895694228c54",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1351,7 +1308,7 @@
               }
             }
           ],
-          "_postman_id": "c582a94a-20ab-4c35-a81c-1c2e437297b8",
+          "id": "c582a94a-20ab-4c35-a81c-1c2e437297b8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1410,7 +1367,7 @@
               }
             }
           ],
-          "_postman_id": "73672c4b-b381-4cf2-aefb-76f6898da27c",
+          "id": "73672c4b-b381-4cf2-aefb-76f6898da27c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1465,7 +1422,7 @@
               }
             }
           ],
-          "_postman_id": "cd73643c-4c7c-483d-a11b-f91f9ac712fb",
+          "id": "cd73643c-4c7c-483d-a11b-f91f9ac712fb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1529,7 +1486,7 @@
               }
             }
           ],
-          "_postman_id": "7954251e-73fa-41a1-84d5-ab871f2f76eb",
+          "id": "7954251e-73fa-41a1-84d5-ab871f2f76eb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1600,7 +1557,7 @@
               }
             }
           ],
-          "_postman_id": "739b2cf5-3b5c-468e-a334-1cada8541c22",
+          "id": "739b2cf5-3b5c-468e-a334-1cada8541c22",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1659,7 +1616,7 @@
               }
             }
           ],
-          "_postman_id": "18134b58-8cda-477c-a70c-810fbd9e6593",
+          "id": "18134b58-8cda-477c-a70c-810fbd9e6593",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1709,7 +1666,7 @@
               }
             }
           ],
-          "_postman_id": "34cdaa48-8dfb-4d19-b94f-ead95c00aad0",
+          "id": "34cdaa48-8dfb-4d19-b94f-ead95c00aad0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1766,7 +1723,7 @@
               }
             }
           ],
-          "_postman_id": "8c7c632c-5444-4654-ac62-d3eb9e1fa46e",
+          "id": "8c7c632c-5444-4654-ac62-d3eb9e1fa46e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1801,7 +1758,7 @@
           "response": []
         }
       ],
-      "_postman_id": "11f6695a-69e5-4aca-a943-d6e66d6df6cb"
+      "id": "11f6695a-69e5-4aca-a943-d6e66d6df6cb"
     },
     {
       "name": "SiteApp (CRUD)",
@@ -1843,7 +1800,7 @@
               }
             }
           ],
-          "_postman_id": "2be0053d-8fab-4858-9be2-d0820c3fdb31",
+          "id": "2be0053d-8fab-4858-9be2-d0820c3fdb31",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1860,8 +1817,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -1892,7 +1848,7 @@
               }
             }
           ],
-          "_postman_id": "8063d7e8-01c7-401a-a747-ccf0f32e7c34",
+          "id": "8063d7e8-01c7-401a-a747-ccf0f32e7c34",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1943,7 +1899,7 @@
               }
             }
           ],
-          "_postman_id": "e6b9bd8f-dd23-4d8c-acb3-9ce8b4251909",
+          "id": "e6b9bd8f-dd23-4d8c-acb3-9ce8b4251909",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1987,7 +1943,7 @@
               }
             }
           ],
-          "_postman_id": "e1769328-6924-4422-8bdf-422ff4934074",
+          "id": "e1769328-6924-4422-8bdf-422ff4934074",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2039,7 +1995,7 @@
               }
             }
           ],
-          "_postman_id": "03a0b7e4-8672-4c55-9917-0d1d6db4db17",
+          "id": "03a0b7e4-8672-4c55-9917-0d1d6db4db17",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2085,7 +2041,7 @@
               }
             }
           ],
-          "_postman_id": "5e148957-bb35-4315-b4d9-ea844e6a3a1a",
+          "id": "5e148957-bb35-4315-b4d9-ea844e6a3a1a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2122,7 +2078,7 @@
               }
             }
           ],
-          "_postman_id": "fd8d3824-1205-47a0-8199-ac787d467f8d",
+          "id": "fd8d3824-1205-47a0-8199-ac787d467f8d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2170,7 +2126,7 @@
               }
             }
           ],
-          "_postman_id": "b1a1ad71-b012-4a92-9f13-e67e41a07ca9",
+          "id": "b1a1ad71-b012-4a92-9f13-e67e41a07ca9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2216,7 +2172,7 @@
               }
             }
           ],
-          "_postman_id": "82b5ecff-1e20-4df6-8be7-17eb9e79167a",
+          "id": "82b5ecff-1e20-4df6-8be7-17eb9e79167a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2260,7 +2216,7 @@
               }
             }
           ],
-          "_postman_id": "9b638cf3-6b24-47b3-b1f0-b29095224ad3",
+          "id": "9b638cf3-6b24-47b3-b1f0-b29095224ad3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2306,7 +2262,7 @@
               }
             }
           ],
-          "_postman_id": "3c3b9548-5377-4370-8758-b64aa4851948",
+          "id": "3c3b9548-5377-4370-8758-b64aa4851948",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2338,7 +2294,7 @@
           "response": []
         }
       ],
-      "_postman_id": "d429bfab-57ad-4801-83d0-60ac410fe8de"
+      "id": "d429bfab-57ad-4801-83d0-60ac410fe8de"
     },
     {
       "name": "AdUnit (CRUD)",
@@ -2385,7 +2341,7 @@
               }
             }
           ],
-          "_postman_id": "a3f136e8-d4c2-424f-a997-b8f1fe68af56",
+          "id": "a3f136e8-d4c2-424f-a997-b8f1fe68af56",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2402,8 +2358,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -2444,7 +2399,7 @@
               }
             }
           ],
-          "_postman_id": "281d72cc-425d-487e-9666-f9f76eadfaab",
+          "id": "281d72cc-425d-487e-9666-f9f76eadfaab",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2511,7 +2466,7 @@
               }
             }
           ],
-          "_postman_id": "858ed7db-1a94-4a06-a05c-7543d73dfe04",
+          "id": "858ed7db-1a94-4a06-a05c-7543d73dfe04",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2568,7 +2523,7 @@
               }
             }
           ],
-          "_postman_id": "8961487b-7daf-4404-bf7a-e76b9156205f",
+          "id": "8961487b-7daf-4404-bf7a-e76b9156205f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2634,7 +2589,7 @@
               }
             }
           ],
-          "_postman_id": "ba790782-38c7-4aab-83b3-cbaefdc6a30c",
+          "id": "ba790782-38c7-4aab-83b3-cbaefdc6a30c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2693,7 +2648,7 @@
               }
             }
           ],
-          "_postman_id": "b23f73a9-57a6-4c23-806a-ff144a640bbe",
+          "id": "b23f73a9-57a6-4c23-806a-ff144a640bbe",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2743,7 +2698,7 @@
               }
             }
           ],
-          "_postman_id": "a0c1a1a1-c888-43d8-b0f2-d8265d37318b",
+          "id": "a0c1a1a1-c888-43d8-b0f2-d8265d37318b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2803,7 +2758,7 @@
               }
             }
           ],
-          "_postman_id": "6f1e016d-ffc0-46e0-bd6c-1a62dd28b0f4",
+          "id": "6f1e016d-ffc0-46e0-bd6c-1a62dd28b0f4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2868,7 +2823,7 @@
               }
             }
           ],
-          "_postman_id": "52518b5e-63d2-45fa-8b41-589ac35f3f53",
+          "id": "52518b5e-63d2-45fa-8b41-589ac35f3f53",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2924,7 +2879,7 @@
               }
             }
           ],
-          "_postman_id": "9d15ce47-b504-4a20-b43e-bcc5f2fb9933",
+          "id": "9d15ce47-b504-4a20-b43e-bcc5f2fb9933",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2989,7 +2944,7 @@
               }
             }
           ],
-          "_postman_id": "013d5626-c6c9-461c-914c-00433ba2e9f7",
+          "id": "013d5626-c6c9-461c-914c-00433ba2e9f7",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3048,7 +3003,7 @@
               }
             }
           ],
-          "_postman_id": "ae90c53d-12d8-4626-ad13-7f1bf2888a9c",
+          "id": "ae90c53d-12d8-4626-ad13-7f1bf2888a9c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3098,7 +3053,7 @@
               }
             }
           ],
-          "_postman_id": "6089e659-1ff1-4c7d-843e-1a53ef89caba",
+          "id": "6089e659-1ff1-4c7d-843e-1a53ef89caba",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3156,7 +3111,7 @@
               }
             }
           ],
-          "_postman_id": "f6437d17-d205-44d3-b75a-7c806554f3f3",
+          "id": "f6437d17-d205-44d3-b75a-7c806554f3f3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3221,7 +3176,7 @@
               }
             }
           ],
-          "_postman_id": "4b1a48f3-76bd-4b9d-b27d-cf93e32446b6",
+          "id": "4b1a48f3-76bd-4b9d-b27d-cf93e32446b6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3280,7 +3235,7 @@
               }
             }
           ],
-          "_postman_id": "b72e5560-2c1e-476b-94a1-033b7d1d3e8a",
+          "id": "b72e5560-2c1e-476b-94a1-033b7d1d3e8a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3315,7 +3270,7 @@
           "response": []
         }
       ],
-      "_postman_id": "132a23ae-df5c-4982-917a-08fea3f4d663"
+      "id": "132a23ae-df5c-4982-917a-08fea3f4d663"
     },
     {
       "name": "AdPod (CRUD)",
@@ -3362,7 +3317,7 @@
               }
             }
           ],
-          "_postman_id": "a71c649e-dbb5-4a43-a34e-ce4cf9d1bf57",
+          "id": "a71c649e-dbb5-4a43-a34e-ce4cf9d1bf57",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3379,8 +3334,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -3421,7 +3375,7 @@
               }
             }
           ],
-          "_postman_id": "d866b915-e7d7-4a58-a3d9-805158c2e7cb",
+          "id": "d866b915-e7d7-4a58-a3d9-805158c2e7cb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3486,7 +3440,7 @@
               }
             }
           ],
-          "_postman_id": "567fc497-4351-4eaa-845f-ccb8858989df",
+          "id": "567fc497-4351-4eaa-845f-ccb8858989df",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3542,7 +3496,7 @@
               }
             }
           ],
-          "_postman_id": "0dc28170-f78a-4067-8484-094807abe448",
+          "id": "0dc28170-f78a-4067-8484-094807abe448",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3607,7 +3561,7 @@
               }
             }
           ],
-          "_postman_id": "8506df38-4a9d-4454-8a48-2cbdd9348f00",
+          "id": "8506df38-4a9d-4454-8a48-2cbdd9348f00",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3672,7 +3626,7 @@
               }
             }
           ],
-          "_postman_id": "f04eee28-f039-429d-a520-17c85d6be557",
+          "id": "f04eee28-f039-429d-a520-17c85d6be557",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3731,7 +3685,7 @@
               }
             }
           ],
-          "_postman_id": "c7b15a2e-e744-440e-97f9-d3f40854b7b0",
+          "id": "c7b15a2e-e744-440e-97f9-d3f40854b7b0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3781,7 +3735,7 @@
               }
             }
           ],
-          "_postman_id": "2c3204cc-b521-454d-8406-2b7ec752cb0c",
+          "id": "2c3204cc-b521-454d-8406-2b7ec752cb0c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3836,7 +3790,7 @@
               }
             }
           ],
-          "_postman_id": "bb3731c5-ba33-4077-bd82-aa5bc92b7e4a",
+          "id": "bb3731c5-ba33-4077-bd82-aa5bc92b7e4a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3900,7 +3854,7 @@
               }
             }
           ],
-          "_postman_id": "e2e33345-82a1-4d9b-be70-dc30a85bca48",
+          "id": "e2e33345-82a1-4d9b-be70-dc30a85bca48",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3964,7 +3918,7 @@
               }
             }
           ],
-          "_postman_id": "a3920558-7eb8-490e-95b9-bdf6c9cfa830",
+          "id": "a3920558-7eb8-490e-95b9-bdf6c9cfa830",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4028,7 +3982,7 @@
               }
             }
           ],
-          "_postman_id": "bc3ab829-cd81-49a0-90dc-6dd1ceb31202",
+          "id": "bc3ab829-cd81-49a0-90dc-6dd1ceb31202",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4092,7 +4046,7 @@
               }
             }
           ],
-          "_postman_id": "2abdc0df-b476-4114-8994-d013e02b0d59",
+          "id": "2abdc0df-b476-4114-8994-d013e02b0d59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4127,7 +4081,7 @@
           "response": []
         }
       ],
-      "_postman_id": "9ed8404c-7ed3-4d44-9aed-4b900e236032"
+      "id": "9ed8404c-7ed3-4d44-9aed-4b900e236032"
     },
     {
       "name": "Advertiser (CRUD)",
@@ -4174,7 +4128,7 @@
               }
             }
           ],
-          "_postman_id": "991d06f5-fea1-41ac-ab8e-0607fc47543f",
+          "id": "991d06f5-fea1-41ac-ab8e-0607fc47543f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4191,8 +4145,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -4234,7 +4187,7 @@
               }
             }
           ],
-          "_postman_id": "159b917e-3e3c-4b5f-b5dc-0c1f75169a29",
+          "id": "159b917e-3e3c-4b5f-b5dc-0c1f75169a29",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4301,7 +4254,7 @@
               }
             }
           ],
-          "_postman_id": "e26462c5-8e92-436e-bcde-7ff459982687",
+          "id": "e26462c5-8e92-436e-bcde-7ff459982687",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4360,7 +4313,7 @@
               }
             }
           ],
-          "_postman_id": "944ae953-9bf9-46ab-ac42-cb1df2a081bf",
+          "id": "944ae953-9bf9-46ab-ac42-cb1df2a081bf",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4410,7 +4363,7 @@
               }
             }
           ],
-          "_postman_id": "897ccb0f-baec-41cb-8df2-f2b2d5f98ff1",
+          "id": "897ccb0f-baec-41cb-8df2-f2b2d5f98ff1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4460,7 +4413,7 @@
               }
             }
           ],
-          "_postman_id": "9d450d9f-4896-49f5-8f75-e6bd43efdc7b",
+          "id": "9d450d9f-4896-49f5-8f75-e6bd43efdc7b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4525,7 +4478,7 @@
               }
             }
           ],
-          "_postman_id": "545589c4-140d-4a43-8be0-97cd82c2cbcd",
+          "id": "545589c4-140d-4a43-8be0-97cd82c2cbcd",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4590,7 +4543,7 @@
               }
             }
           ],
-          "_postman_id": "542849d5-f4cf-4ed4-89c0-de9ba971cf0e",
+          "id": "542849d5-f4cf-4ed4-89c0-de9ba971cf0e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4654,7 +4607,7 @@
               }
             }
           ],
-          "_postman_id": "2f38c154-63e7-4cd7-b8a3-9e66a8178e83",
+          "id": "2f38c154-63e7-4cd7-b8a3-9e66a8178e83",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4713,7 +4666,7 @@
               }
             }
           ],
-          "_postman_id": "a61560b7-b4b7-4777-bdcb-40936ed71479",
+          "id": "a61560b7-b4b7-4777-bdcb-40936ed71479",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4772,7 +4725,7 @@
               }
             }
           ],
-          "_postman_id": "be56d1fd-bd10-4232-8872-192ba1a5420b",
+          "id": "be56d1fd-bd10-4232-8872-192ba1a5420b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4798,7 +4751,7 @@
           "response": []
         }
       ],
-      "_postman_id": "809094eb-0442-4f65-b686-c5536b494e04"
+      "id": "809094eb-0442-4f65-b686-c5536b494e04"
     },
     {
       "name": "Campaign (CRUD)",
@@ -4833,7 +4786,7 @@
               }
             }
           ],
-          "_postman_id": "b0b7fd31-9310-4fc9-840b-4a60bc8ce563",
+          "id": "b0b7fd31-9310-4fc9-840b-4a60bc8ce563",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4854,8 +4807,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -4899,7 +4851,7 @@
               }
             }
           ],
-          "_postman_id": "e3e4cd50-4b1e-4e92-9167-59142e32f559",
+          "id": "e3e4cd50-4b1e-4e92-9167-59142e32f559",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4922,8 +4874,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -4963,7 +4914,7 @@
               }
             }
           ],
-          "_postman_id": "4086c2a0-e2bb-49a0-a67e-1096fdb5de8d",
+          "id": "4086c2a0-e2bb-49a0-a67e-1096fdb5de8d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5020,7 +4971,7 @@
               }
             }
           ],
-          "_postman_id": "68f8bc90-1e6a-49fa-8d21-22b094aa85d4",
+          "id": "68f8bc90-1e6a-49fa-8d21-22b094aa85d4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5043,8 +4994,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"RUNNING\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"RUNNING\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5075,7 +5025,7 @@
               }
             }
           ],
-          "_postman_id": "ff0dad43-0d4e-4c42-ba16-4256e95047ed",
+          "id": "ff0dad43-0d4e-4c42-ba16-4256e95047ed",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5125,7 +5075,7 @@
               }
             }
           ],
-          "_postman_id": "f6531864-dd44-4ef6-9830-611bb9f8aa9b",
+          "id": "f6531864-dd44-4ef6-9830-611bb9f8aa9b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5148,8 +5098,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5180,7 +5129,7 @@
               }
             }
           ],
-          "_postman_id": "d8de6ea9-7498-4847-ac01-63ca0eb3c9d0",
+          "id": "d8de6ea9-7498-4847-ac01-63ca0eb3c9d0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5203,8 +5152,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"RUNNING\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"RUNNING\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5244,7 +5192,7 @@
               }
             }
           ],
-          "_postman_id": "b4b12812-d29f-4668-9672-ed8842508b5c",
+          "id": "b4b12812-d29f-4668-9672-ed8842508b5c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5267,8 +5215,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 68368,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"23\",\n    \"cpm\": \"23000\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        365773,\n        365776\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-25\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [\n        {\n            \"budgetCapping\": null,\n            \"budgetTarget\": \"2\",\n            \"impCapping\": null,\n            \"impsTarget\": null,\n            \"inventoryId\": 210046,\n            \"targetPercent\": null\n        }\n    ],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": \"2021-02-24\",\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targetings\": [107],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 68368,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"23\",\n    \"cpm\": \"23000\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        365773,\n        365776\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-25\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [\n        {\n            \"budgetCapping\": null,\n            \"budgetTarget\": \"2\",\n            \"impCapping\": null,\n            \"impsTarget\": null,\n            \"inventoryId\": 210046,\n            \"targetPercent\": null\n        }\n    ],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": \"2021-02-24\",\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targetings\": [107],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -5299,7 +5246,7 @@
               }
             }
           ],
-          "_postman_id": "151c086e-62ff-46a2-947d-c295242df96b",
+          "id": "151c086e-62ff-46a2-947d-c295242df96b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5362,7 +5309,7 @@
               }
             }
           ],
-          "_postman_id": "65f5fd8e-4291-4470-8a86-244e5c864f2d",
+          "id": "65f5fd8e-4291-4470-8a86-244e5c864f2d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5385,8 +5332,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 68368,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"23\",\n    \"cpm\": \"23000\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-25\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [\n        {\n            \"budgetCapping\": null,\n            \"budgetTarget\": \"2\",\n            \"impCapping\": null,\n            \"impsTarget\": null,\n            \"inventoryId\": 210046,\n            \"targetPercent\": null\n        }\n    ],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": \"2021-02-24\",\n    \"status\": \"DRAFT\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [\n            {\n                \"id\": null,\n                \"circle\": {\n                    \"center\": {\n                        \"lat\": 41.902784,\n                        \"lng\": 12.496366\n                    },\n                    \"radius\": 1000\n                },\n                \"location\": \"41.902784, 12.496366\",\n                \"notes\": \"Rome, Metropolitan City of Rome, Italy\"\n            }\n        ],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": {\n            \"allow\": true,\n            \"values\": [\n                121005\n            ],\n            \"valuesCoverEmpty\": false\n        },\n        \"startDelays\": {\n            \"allow\": true,\n            \"values\": [\n                -1\n            ],\n            \"valuesCoverEmpty\": false\n        },\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 68368,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"23\",\n    \"cpm\": \"23000\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-25\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [\n        {\n            \"budgetCapping\": null,\n            \"budgetTarget\": \"2\",\n            \"impCapping\": null,\n            \"impsTarget\": null,\n            \"inventoryId\": 210046,\n            \"targetPercent\": null\n        }\n    ],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": \"2021-02-24\",\n    \"status\": \"DRAFT\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [\n            {\n                \"id\": null,\n                \"circle\": {\n                    \"center\": {\n                        \"lat\": 41.902784,\n                        \"lng\": 12.496366\n                    },\n                    \"radius\": 1000\n                },\n                \"location\": \"41.902784, 12.496366\",\n                \"notes\": \"Rome, Metropolitan City of Rome, Italy\"\n            }\n        ],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": {\n            \"allow\": true,\n            \"values\": [\n                121005\n            ],\n            \"valuesCoverEmpty\": false\n        },\n        \"startDelays\": {\n            \"allow\": true,\n            \"values\": [\n                -1\n            ],\n            \"valuesCoverEmpty\": false\n        },\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -5417,7 +5363,7 @@
               }
             }
           ],
-          "_postman_id": "bb299e1a-f83a-4ef7-86b4-7624566fa525",
+          "id": "bb299e1a-f83a-4ef7-86b4-7624566fa525",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5480,7 +5426,7 @@
               }
             }
           ],
-          "_postman_id": "a777f469-310e-4417-9e3e-ed3e4b8a9d87",
+          "id": "a777f469-310e-4417-9e3e-ed3e4b8a9d87",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5503,8 +5449,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -5540,7 +5485,7 @@
               }
             }
           ],
-          "_postman_id": "cfcbd262-e9d1-489d-929c-eac0ecbbe3a3",
+          "id": "cfcbd262-e9d1-489d-929c-eac0ecbbe3a3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5563,8 +5508,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5602,7 +5546,7 @@
               }
             }
           ],
-          "_postman_id": "49d4d39c-1a41-49c6-bdc3-cd35fb089901",
+          "id": "49d4d39c-1a41-49c6-bdc3-cd35fb089901",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5625,8 +5569,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"CANCELED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"SMOOTH\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"CANCELED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5657,7 +5600,7 @@
               }
             }
           ],
-          "_postman_id": "6183d4a1-458d-4d6d-8358-82397684aa5d",
+          "id": "6183d4a1-458d-4d6d-8358-82397684aa5d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5680,8 +5623,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5725,7 +5667,7 @@
               }
             }
           ],
-          "_postman_id": "d8d926c2-5860-4afc-a9a3-101e4510c10a",
+          "id": "d8d926c2-5860-4afc-a9a3-101e4510c10a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5748,8 +5690,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -5789,7 +5730,7 @@
               }
             }
           ],
-          "_postman_id": "05928bda-c668-4229-be65-65887cea3b49",
+          "id": "05928bda-c668-4229-be65-65887cea3b49",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5812,8 +5753,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"230\",\n    \"cpm\": \"24000\",\n    \"creativeRotationScriptId\": null,\n    \"creatives\": [\n        1961253\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": false,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"AUDIENCE\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns/{{campaignId}}"
           },
@@ -5844,7 +5784,7 @@
               }
             }
           ],
-          "_postman_id": "d5d2833d-03bb-4c09-a6d0-d863cf0a99b0",
+          "id": "d5d2833d-03bb-4c09-a6d0-d863cf0a99b0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5900,7 +5840,7 @@
               }
             }
           ],
-          "_postman_id": "e16614b3-c586-475b-97a7-10fef114c998",
+          "id": "e16614b3-c586-475b-97a7-10fef114c998",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5923,8 +5863,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": null,\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": null,\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -5961,7 +5900,7 @@
               }
             }
           ],
-          "_postman_id": "767039c1-d6bb-4c04-add5-21a315738948",
+          "id": "767039c1-d6bb-4c04-add5-21a315738948",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5984,8 +5923,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": null,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": null,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"{{startTimestamp}}\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -6021,7 +5959,7 @@
               }
             }
           ],
-          "_postman_id": "f8b6e002-aa28-4853-8e74-f8e5b28a8a68",
+          "id": "f8b6e002-aa28-4853-8e74-f8e5b28a8a68",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6044,8 +5982,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"INVALID\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n        1368420,\n        1368372\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": null,\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"INVALID\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -6082,7 +6019,7 @@
               }
             }
           ],
-          "_postman_id": "8b458e74-f459-4f3e-a787-42cfd9e4c637",
+          "id": "8b458e74-f459-4f3e-a787-42cfd9e4c637",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6105,8 +6042,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-24\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Campaign {{startTimestamp}}\",\n    \"advertiser\": 799527,\n    \"approvalNotes\": null,\n    \"budgetCapping\": null,\n    \"budgetTarget\": \"24000\",\n    \"cpm\": \"2\",\n    \"creativeRotationScriptId\": 1,\n    \"creatives\": [\n    ],\n    \"deals\": [],\n    \"delivery\": \"ASAP\",\n    \"dspMargin\": null,\n    \"end\": \"2021-02-24\",\n    \"impCapping\": null,\n    \"impsTarget\": null,\n    \"inventoryTargets\": [],\n    \"ifaCapping\": null,\n    \"runningAfterApproval\": true,\n    \"start\": null,\n    \"status\": \"APPROVED\",\n    \"systemType\": \"ORIGIN_MEDIA\",\n    \"targeting\": {\n        \"id\": null,\n        \"adPodSlotTypes\": null,\n        \"adUnits\": null,\n        \"advertiserDomains\": null,\n        \"appBundles\": null,\n        \"categories\": null,\n        \"cityCodes\": null,\n        \"congressionalDistricts\": null,\n        \"counties\": null,\n        \"countryCodes\": null,\n        \"creativeCategories\": null,\n        \"dealIds\": null,\n        \"deals\": null,\n        \"deviceMakes\": null,\n        \"deviceModels\": null,\n        \"deviceTypes\": null,\n        \"dmaCodes\": null,\n        \"episodeNames\": null,\n        \"locations\": [],\n        \"networks\": null,\n        \"periods\": [],\n        \"seriesNames\": null,\n        \"ssps\": null,\n        \"startDelays\": null,\n        \"states\": null,\n        \"zipCodes\": null,\n        \"segmentGroups\": []\n    },\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"timeZone\": \"Europe/Athens\",\n    \"type\": \"VIDEO\",\n    \"user\": null,\n    \"allowIndirect\": false,\n    \"pacingRate\": null,\n    \"spend\": null,\n    \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/campaigns"
           },
@@ -6147,7 +6083,7 @@
               }
             }
           ],
-          "_postman_id": "cc4b1f6b-51db-43e9-ba9e-3ad0f666a84d",
+          "id": "cc4b1f6b-51db-43e9-ba9e-3ad0f666a84d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6165,7 +6101,7 @@
           "response": []
         }
       ],
-      "_postman_id": "fcc8a625-9829-4482-92a3-3274803b809e"
+      "id": "fcc8a625-9829-4482-92a3-3274803b809e"
     },
     {
       "name": "Creative (CRUD)",
@@ -6200,7 +6136,7 @@
               }
             }
           ],
-          "_postman_id": "7c444858-721f-4289-b715-5787ef466451",
+          "id": "7c444858-721f-4289-b715-5787ef466451",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6221,8 +6157,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -6262,7 +6197,7 @@
               }
             }
           ],
-          "_postman_id": "5ccb9a92-bec8-4954-b51f-ec0548e02c80",
+          "id": "5ccb9a92-bec8-4954-b51f-ec0548e02c80",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6285,8 +6220,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Advertiser {{startTimestamp}}\",\n    \"balance\": 0,\n    \"campaigns\": 0,\n    \"contacts\": {\n        \"country\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"responsiblePerson\": null,\n        \"skype\": null\n    },\n    \"creatives\": 0,\n    \"domain\": \"qa.com\",\n    \"domains\": null,\n    \"ssps\": null,\n    \"status\": \"INACTIVE\"\n}",
-              "options": {}
+              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: QA Advertiser {{startTimestamp}}\",\n    \"balance\": 0,\n    \"campaigns\": 0,\n    \"contacts\": {\n        \"country\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"responsiblePerson\": null,\n        \"skype\": null\n    },\n    \"creatives\": 0,\n    \"domain\": \"qa.com\",\n    \"domains\": null,\n    \"ssps\": null,\n    \"status\": \"INACTIVE\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/advertisers"
           },
@@ -6347,7 +6281,7 @@
               }
             }
           ],
-          "_postman_id": "38e549c1-08d9-4b3a-ad1f-446db2471d14",
+          "id": "38e549c1-08d9-4b3a-ad1f-446db2471d14",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6383,8 +6317,7 @@
                   "type": "file",
                   "src": "Storage/PNG.png"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6412,7 +6345,7 @@
               }
             }
           ],
-          "_postman_id": "ebfbe277-119b-4273-95e7-56f1a611b319",
+          "id": "ebfbe277-119b-4273-95e7-56f1a611b319",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6457,7 +6390,7 @@
               }
             }
           ],
-          "_postman_id": "842a03e0-6b9f-4ad5-b476-d64f69025a3e",
+          "id": "842a03e0-6b9f-4ad5-b476-d64f69025a3e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6493,8 +6426,7 @@
                   "type": "file",
                   "src": "Storage/PNG.png"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6523,7 +6455,7 @@
               }
             }
           ],
-          "_postman_id": "cdda5cff-f946-4191-8492-d9e10655e3a1",
+          "id": "cdda5cff-f946-4191-8492-d9e10655e3a1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6559,8 +6491,7 @@
                   "type": "file",
                   "src": "Storage/PNG.png"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6613,7 +6544,7 @@
               }
             }
           ],
-          "_postman_id": "d2c9263d-c98c-4cd6-9dc8-c9b2cb77b7be",
+          "id": "d2c9263d-c98c-4cd6-9dc8-c9b2cb77b7be",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6649,8 +6580,7 @@
                   "type": "file",
                   "src": "Storage/mp4_560x320_175KB.mp4"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6677,7 +6607,7 @@
               }
             }
           ],
-          "_postman_id": "4e623c19-7e35-43a6-b775-8e1ef7f6d90e",
+          "id": "4e623c19-7e35-43a6-b775-8e1ef7f6d90e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6737,7 +6667,7 @@
               }
             }
           ],
-          "_postman_id": "9aacbfa4-0947-4b8a-be2e-5f398160c55d",
+          "id": "9aacbfa4-0947-4b8a-be2e-5f398160c55d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6767,8 +6697,7 @@
                   "contentType": "application/json",
                   "type": "text"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6795,7 +6724,7 @@
               }
             }
           ],
-          "_postman_id": "7f63606a-8099-423c-8838-3844e124c788",
+          "id": "7f63606a-8099-423c-8838-3844e124c788",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6831,8 +6760,7 @@
                   "type": "file",
                   "src": "Storage/JPG1.jpg"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6858,7 +6786,7 @@
               }
             }
           ],
-          "_postman_id": "2a570d07-1858-4a89-b4dc-b10735c7e487",
+          "id": "2a570d07-1858-4a89-b4dc-b10735c7e487",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6894,8 +6822,7 @@
                   "type": "file",
                   "src": "Storage/mp4_corrupted.mp4"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -6921,7 +6848,7 @@
               }
             }
           ],
-          "_postman_id": "9a9eea38-3a46-43fe-98ee-c78156cfd6a4",
+          "id": "9a9eea38-3a46-43fe-98ee-c78156cfd6a4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -6957,8 +6884,7 @@
                   "type": "file",
                   "src": "Storage/mp4_corrupted.mp4"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -7007,7 +6933,7 @@
               }
             }
           ],
-          "_postman_id": "0e989236-7361-403b-8cf7-dfae5c2d1f72",
+          "id": "0e989236-7361-403b-8cf7-dfae5c2d1f72",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7043,8 +6969,7 @@
                   "type": "file",
                   "src": "Storage/mp4_560x320_175KB.mp4"
                 }
-              ],
-              "options": {}
+              ]
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/creatives"
           },
@@ -7065,7 +6990,7 @@
               }
             }
           ],
-          "_postman_id": "75b12ccd-ddb1-4bf2-a3c1-52aff5a2bf22",
+          "id": "75b12ccd-ddb1-4bf2-a3c1-52aff5a2bf22",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7120,7 +7045,7 @@
               }
             }
           ],
-          "_postman_id": "7b5ceb70-33fe-49fd-9b2e-c65a43fcbbea",
+          "id": "7b5ceb70-33fe-49fd-9b2e-c65a43fcbbea",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7191,7 +7116,7 @@
               }
             }
           ],
-          "_postman_id": "347f4274-ddc2-4400-882e-e815b164919d",
+          "id": "347f4274-ddc2-4400-882e-e815b164919d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7226,7 +7151,7 @@
               }
             }
           ],
-          "_postman_id": "2c67df05-991a-4cd9-a05a-c5173d450d42",
+          "id": "2c67df05-991a-4cd9-a05a-c5173d450d42",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -7243,15 +7168,14 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "",
-              "options": {}
+              "raw": ""
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/logout"
           },
           "response": []
         }
       ],
-      "_postman_id": "31d5d714-6856-48ac-9a9b-5e1384c9372c"
+      "id": "31d5d714-6856-48ac-9a9b-5e1384c9372c"
     },
     {
       "name": "Reports (CRUD)",
@@ -7289,7 +7213,7 @@
                   }
                 }
               ],
-              "_postman_id": "0582278d-9138-4bd8-8970-a8053a305abc",
+              "id": "0582278d-9138-4bd8-8970-a8053a305abc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7310,8 +7234,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                  "options": {}
+                  "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
               },
@@ -7337,7 +7260,7 @@
                   }
                 }
               ],
-              "_postman_id": "7c8b13cc-8110-4f93-8665-caef4d58cf16",
+              "id": "7c8b13cc-8110-4f93-8665-caef4d58cf16",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7382,7 +7305,7 @@
                   }
                 }
               ],
-              "_postman_id": "94edab55-bbc9-4009-a222-d33cce9b0549",
+              "id": "94edab55-bbc9-4009-a222-d33cce9b0549",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7405,8 +7328,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": null,\n        \"end\": null,\n        \"type\": \"TODAY\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Africa/Addis_Ababa\",\n    \"type\": \"SSP\",\n    \"user\": null\n}",
-                  "options": {}
+                  "raw": "{\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": null,\n        \"end\": null,\n        \"type\": \"TODAY\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Africa/Addis_Ababa\",\n    \"type\": \"SSP\",\n    \"user\": null\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports"
               },
@@ -7432,7 +7354,7 @@
                   }
                 }
               ],
-              "_postman_id": "f13e7060-ac02-4e0c-9942-5122ad6c69e5",
+              "id": "f13e7060-ac02-4e0c-9942-5122ad6c69e5",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7455,8 +7377,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: SSP Report (incorrect tz)\",\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": null,\n        \"end\": null,\n        \"type\": \"TODAY\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Abc\",\n    \"type\": \"SSP\",\n    \"user\": null\n}",
-                  "options": {}
+                  "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: SSP Report (incorrect tz)\",\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": null,\n        \"end\": null,\n        \"type\": \"TODAY\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Abc\",\n    \"type\": \"SSP\",\n    \"user\": null\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports"
               },
@@ -7483,7 +7404,7 @@
                   }
                 }
               ],
-              "_postman_id": "46e4d6be-2624-40fb-aaea-3242f3192e72",
+              "id": "46e4d6be-2624-40fb-aaea-3242f3192e72",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7506,8 +7427,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: SSP Report (incorrect period)\",\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": \"2020-01-03\",\n        \"end\": \"2020-01-01\",\n        \"type\": \"CUSTOM\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Africa/Addis_Ababa\",\n    \"type\": \"SSP\",\n    \"user\": null\n}",
-                  "options": {}
+                  "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: SSP Report (incorrect period)\",\n    \"custom\": true,\n    \"dimensions\": [],\n    \"filter\": {\n        \"adTypes\": null,\n        \"adUnits\": null,\n        \"adomains\": null,\n        \"advertisers\": null,\n        \"appBundles\": null,\n        \"appNames\": null,\n        \"browsers\": null,\n        \"campaigns\": null,\n        \"carriers\": null,\n        \"cities\": null,\n        \"congressionalDistricts\": null,\n        \"connections\": null,\n        \"counties\": null,\n        \"countries\": null,\n        \"creatives\": null,\n        \"deals\": null,\n        \"devices\": null,\n        \"dmas\": null,\n        \"dspRespStates\": null,\n        \"dspTypes\": null,\n        \"dsps\": null,\n        \"houseAd\": null,\n        \"inventories\": null,\n        \"inventoryGroups\": null,\n        \"inventoryTypes\": null,\n        \"makes\": null,\n        \"models\": null,\n        \"noBidReasons\": null,\n        \"oses\": null,\n        \"periods\": null,\n        \"platforms\": null,\n        \"publisherGroups\": null,\n        \"seriesNames\": null,\n        \"sizes\": null,\n        \"ssps\": null,\n        \"states\": null,\n        \"streams\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"metrics\": [],\n    \"period\": {\n        \"start\": \"2020-01-03\",\n        \"end\": \"2020-01-01\",\n        \"type\": \"CUSTOM\"\n    },\n    \"personal\": true,\n    \"schedule\": null,\n    \"timeZone\": \"Africa/Addis_Ababa\",\n    \"type\": \"SSP\",\n    \"user\": null\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports"
               },
@@ -7548,7 +7468,7 @@
                   }
                 }
               ],
-              "_postman_id": "222cb455-ffa8-49d7-81a8-9ac828edc0df",
+              "id": "222cb455-ffa8-49d7-81a8-9ac828edc0df",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7613,7 +7533,7 @@
                   }
                 }
               ],
-              "_postman_id": "4be2667a-722d-4608-b1f1-0f78cc6cf4ef",
+              "id": "4be2667a-722d-4608-b1f1-0f78cc6cf4ef",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7669,7 +7589,7 @@
                   }
                 }
               ],
-              "_postman_id": "8b6258bb-1dfc-4ce8-b784-e4d759739b3a",
+              "id": "8b6258bb-1dfc-4ce8-b784-e4d759739b3a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7723,7 +7643,7 @@
                   }
                 }
               ],
-              "_postman_id": "da7e336d-9a43-4c60-81b1-196a33e19107",
+              "id": "da7e336d-9a43-4c60-81b1-196a33e19107",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7782,7 +7702,7 @@
                   }
                 }
               ],
-              "_postman_id": "71788aff-dadd-4558-9c3c-d652720643b7",
+              "id": "71788aff-dadd-4558-9c3c-d652720643b7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7839,7 +7759,7 @@
                   }
                 }
               ],
-              "_postman_id": "2208a879-b816-46c7-9f97-b22aba5535d0",
+              "id": "2208a879-b816-46c7-9f97-b22aba5535d0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7897,7 +7817,7 @@
                   }
                 }
               ],
-              "_postman_id": "c90c8f7e-89df-45b5-bfc6-255d8d165a9f",
+              "id": "c90c8f7e-89df-45b5-bfc6-255d8d165a9f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7974,7 +7894,7 @@
                   }
                 }
               ],
-              "_postman_id": "c43035e5-7eb6-44a3-9c23-981518a6c232",
+              "id": "c43035e5-7eb6-44a3-9c23-981518a6c232",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8051,7 +7971,7 @@
                   }
                 }
               ],
-              "_postman_id": "0aecbcd5-d2d8-4418-8ad2-885d8fe4eac1",
+              "id": "0aecbcd5-d2d8-4418-8ad2-885d8fe4eac1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8131,7 +8051,7 @@
                   }
                 }
               ],
-              "_postman_id": "4c66250b-566e-4a7d-8590-fc66c519648c",
+              "id": "4c66250b-566e-4a7d-8590-fc66c519648c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8203,7 +8123,7 @@
                   }
                 }
               ],
-              "_postman_id": "ef225a57-f340-4cdb-ae4f-b6dcc70241b9",
+              "id": "ef225a57-f340-4cdb-ae4f-b6dcc70241b9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8226,8 +8146,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"id\": null,\n    \"report\": {\n        \"id\": {{reportId}},\n        \"name\": \"Postman: SSP Report (updated)\",\n        \"custom\": true,\n        \"dimensions\": [],\n        \"filter\": {\n            \"adomains\": null,\n            \"adTypes\": null,\n            \"adUnits\": null,\n            \"advertisers\": null,\n            \"appBundles\": null,\n            \"appNames\": null,\n            \"browsers\": null,\n            \"campaigns\": null,\n            \"carriers\": null,\n            \"cities\": null,\n            \"congressionalDistricts\": null,\n            \"connections\": null,\n            \"counties\": null,\n            \"countries\": null,\n            \"creatives\": null,\n            \"deals\": null,\n            \"devices\": null,\n            \"dmas\": null,\n            \"dsps\": null,\n            \"dspRespStates\": null,\n            \"dspTypes\": null,\n            \"houseAd\": null,\n            \"inventories\": null,\n            \"inventoryGroups\": null,\n            \"inventoryTypes\": null,\n            \"makes\": null,\n            \"models\": null,\n            \"noBidReasons\": null,\n            \"oses\": null,\n            \"periods\": null,\n            \"platforms\": null,\n            \"publisherGroups\": null,\n            \"seriesNames\": null,\n            \"sizes\": null,\n            \"ssps\": null,\n            \"streams\": null,\n            \"states\": null\n        },\n        \"granularity\": \"CUMULATIVE\",\n        \"metrics\": [],\n        \"period\": {\n            \"type\": \"CUSTOM\",\n            \"start\": \"2020-01-01\",\n            \"end\": \"2020-01-03\"\n        },\n        \"personal\": false,\n        \"schedule\": null,\n        \"timeZone\": \"Europe/Athens\",\n        \"type\": \"SSP\",\n        \"user\": {\n            \"id\": 1,\n            \"advertisers\": [],\n            \"client\": null,\n            \"dsps\": [],\n            \"email\": null,\n            \"firstName\": \"TEST\",\n            \"lastName\": \"Admin\",\n            \"role\": null,\n            \"ssps\": [],\n            \"status\": null,\n            \"timeZone\": null,\n            \"name\": \"TEST Admin\"\n        }\n    },\n    \"reportId\": {{reportId}},\n    \"emails\": [\n        {{emailToShareReport}}\n    ],\n    \"frequency\": null,\n    \"period\": {\n        \"type\": \"TODAY\",\n        \"start\": null,\n        \"end\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"subject\": \"Postman: Share report as CSV\",\n    \"body\": \"Body:\\nPostman: Share report as CSV\",\n    \"format\": \"CSV\"\n}",
-                  "options": {}
+                  "raw": "{\n    \"id\": null,\n    \"report\": {\n        \"id\": {{reportId}},\n        \"name\": \"Postman: SSP Report (updated)\",\n        \"custom\": true,\n        \"dimensions\": [],\n        \"filter\": {\n            \"adomains\": null,\n            \"adTypes\": null,\n            \"adUnits\": null,\n            \"advertisers\": null,\n            \"appBundles\": null,\n            \"appNames\": null,\n            \"browsers\": null,\n            \"campaigns\": null,\n            \"carriers\": null,\n            \"cities\": null,\n            \"congressionalDistricts\": null,\n            \"connections\": null,\n            \"counties\": null,\n            \"countries\": null,\n            \"creatives\": null,\n            \"deals\": null,\n            \"devices\": null,\n            \"dmas\": null,\n            \"dsps\": null,\n            \"dspRespStates\": null,\n            \"dspTypes\": null,\n            \"houseAd\": null,\n            \"inventories\": null,\n            \"inventoryGroups\": null,\n            \"inventoryTypes\": null,\n            \"makes\": null,\n            \"models\": null,\n            \"noBidReasons\": null,\n            \"oses\": null,\n            \"periods\": null,\n            \"platforms\": null,\n            \"publisherGroups\": null,\n            \"seriesNames\": null,\n            \"sizes\": null,\n            \"ssps\": null,\n            \"streams\": null,\n            \"states\": null\n        },\n        \"granularity\": \"CUMULATIVE\",\n        \"metrics\": [],\n        \"period\": {\n            \"type\": \"CUSTOM\",\n            \"start\": \"2020-01-01\",\n            \"end\": \"2020-01-03\"\n        },\n        \"personal\": false,\n        \"schedule\": null,\n        \"timeZone\": \"Europe/Athens\",\n        \"type\": \"SSP\",\n        \"user\": {\n            \"id\": 1,\n            \"advertisers\": [],\n            \"client\": null,\n            \"dsps\": [],\n            \"email\": null,\n            \"firstName\": \"TEST\",\n            \"lastName\": \"Admin\",\n            \"role\": null,\n            \"ssps\": [],\n            \"status\": null,\n            \"timeZone\": null,\n            \"name\": \"TEST Admin\"\n        }\n    },\n    \"reportId\": {{reportId}},\n    \"emails\": [\n        {{emailToShareReport}}\n    ],\n    \"frequency\": null,\n    \"period\": {\n        \"type\": \"TODAY\",\n        \"start\": null,\n        \"end\": null\n    },\n    \"granularity\": \"HOUR\",\n    \"subject\": \"Postman: Share report as CSV\",\n    \"body\": \"Body:\\nPostman: Share report as CSV\",\n    \"format\": \"CSV\"\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports/{{reportId}}/_share"
               },
@@ -8258,7 +8177,7 @@
                   }
                 }
               ],
-              "_postman_id": "d4fdac12-d315-4f6e-8280-9c129bc04be8",
+              "id": "d4fdac12-d315-4f6e-8280-9c129bc04be8",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8317,7 +8236,7 @@
                   }
                 }
               ],
-              "_postman_id": "51dbe5e3-0c0d-49b3-9794-433feb97a913",
+              "id": "51dbe5e3-0c0d-49b3-9794-433feb97a913",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8376,7 +8295,7 @@
                   }
                 }
               ],
-              "_postman_id": "680d2fd7-010f-4171-9c49-2c54af04c882",
+              "id": "680d2fd7-010f-4171-9c49-2c54af04c882",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8430,7 +8349,7 @@
                   }
                 }
               ],
-              "_postman_id": "fef3504a-b7ca-488f-add4-583e9a17d092",
+              "id": "fef3504a-b7ca-488f-add4-583e9a17d092",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8475,7 +8394,7 @@
                   }
                 }
               ],
-              "_postman_id": "e12009fe-d83e-4486-ad14-f7b88ba8246d",
+              "id": "e12009fe-d83e-4486-ad14-f7b88ba8246d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8518,7 +8437,7 @@
                   }
                 }
               ],
-              "_postman_id": "b576dcbd-4026-49cb-bcd6-758c0a379d81",
+              "id": "b576dcbd-4026-49cb-bcd6-758c0a379d81",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8563,7 +8482,7 @@
                   }
                 }
               ],
-              "_postman_id": "1effd014-6115-47f5-a32a-efafec8ab2bc",
+              "id": "1effd014-6115-47f5-a32a-efafec8ab2bc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8621,7 +8540,7 @@
                   }
                 }
               ],
-              "_postman_id": "dadc0eba-fd85-47fc-9c83-518e8ced2d74",
+              "id": "dadc0eba-fd85-47fc-9c83-518e8ced2d74",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8639,8 +8558,7 @@
               "response": []
             }
           ],
-          "_postman_id": "fd9c1919-4ddb-46e0-a9ad-34e22079f8c2",
-          "_postman_isSubFolder": true
+          "id": "fd9c1919-4ddb-46e0-a9ad-34e22079f8c2"
         },
         {
           "name": "DSP",
@@ -8675,7 +8593,7 @@
                   }
                 }
               ],
-              "_postman_id": "35293b53-709b-4f69-96e9-bd37681d137e",
+              "id": "35293b53-709b-4f69-96e9-bd37681d137e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8696,8 +8614,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                  "options": {}
+                  "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                 },
                 "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
               },
@@ -8738,7 +8655,7 @@
                   }
                 }
               ],
-              "_postman_id": "3ad115e7-d4a2-4d4b-88a7-1d2b128881d0",
+              "id": "3ad115e7-d4a2-4d4b-88a7-1d2b128881d0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8794,7 +8711,7 @@
                   }
                 }
               ],
-              "_postman_id": "5c185753-41d8-4f6b-bc7c-bab9107e5cbf",
+              "id": "5c185753-41d8-4f6b-bc7c-bab9107e5cbf",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8845,7 +8762,7 @@
                   }
                 }
               ],
-              "_postman_id": "ea43ee7b-3300-45ed-b2e7-a22f6886d349",
+              "id": "ea43ee7b-3300-45ed-b2e7-a22f6886d349",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8868,8 +8785,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "",
-                  "options": {}
+                  "raw": ""
                 },
                 "url": {
                   "raw": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports?type=SSP",
@@ -8919,7 +8835,7 @@
                   }
                 }
               ],
-              "_postman_id": "d5ee6959-1514-41a8-b295-8517c0584e0e",
+              "id": "d5ee6959-1514-41a8-b295-8517c0584e0e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8942,8 +8858,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "",
-                  "options": {}
+                  "raw": ""
                 },
                 "url": {
                   "raw": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/reports?type=DSP",
@@ -8984,7 +8899,7 @@
                   }
                 }
               ],
-              "_postman_id": "8db7c83c-22cf-4eb0-b10a-8a90b2138fdd",
+              "id": "8db7c83c-22cf-4eb0-b10a-8a90b2138fdd",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9042,7 +8957,7 @@
                   }
                 }
               ],
-              "_postman_id": "faa755e4-7d8a-41fa-b4fa-28f43362f7eb",
+              "id": "faa755e4-7d8a-41fa-b4fa-28f43362f7eb",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9060,8 +8975,7 @@
               "response": []
             }
           ],
-          "_postman_id": "1f375d80-510b-41f7-8cbc-73e9bb3164ca",
-          "_postman_isSubFolder": true
+          "id": "1f375d80-510b-41f7-8cbc-73e9bb3164ca"
         },
         {
           "name": "Metrics",
@@ -9099,7 +9013,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "9a536e41-e25a-4d5c-af40-c5b4926e584c",
+                  "id": "9a536e41-e25a-4d5c-af40-c5b4926e584c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9120,8 +9034,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                      "options": {}
+                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                     },
                     "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
                   },
@@ -9147,7 +9060,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0296dc1a-0801-4752-8297-3f722662e8ab",
+                  "id": "0296dc1a-0801-4752-8297-3f722662e8ab",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9248,7 +9161,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "76273136-59b4-4faf-85d1-908c418f11ee",
+                  "id": "76273136-59b4-4faf-85d1-908c418f11ee",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9354,7 +9267,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "a162f087-9cde-4e44-b7e8-1c9e9e4cf768",
+                  "id": "a162f087-9cde-4e44-b7e8-1c9e9e4cf768",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9459,7 +9372,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "fe985ac0-cc50-43bb-aae6-a6bfd8fa0d6c",
+                  "id": "fe985ac0-cc50-43bb-aae6-a6bfd8fa0d6c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9513,7 +9426,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "b6d7919a-9a1f-4278-bc0f-d25fc1c75d04",
+                  "id": "b6d7919a-9a1f-4278-bc0f-d25fc1c75d04",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9575,7 +9488,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "b2f37a8d-60c4-44f5-ba66-70a5089555ba",
+                  "id": "b2f37a8d-60c4-44f5-ba66-70a5089555ba",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9672,7 +9585,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "313345f4-a5d1-4f2f-8da0-3c2b83f23fcb",
+                  "id": "313345f4-a5d1-4f2f-8da0-3c2b83f23fcb",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9774,7 +9687,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "11ecd300-dba3-4a7e-84f0-a267935bdeb4",
+                  "id": "11ecd300-dba3-4a7e-84f0-a267935bdeb4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9880,7 +9793,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0ca8793f-38e9-4aa9-ba8d-d5b6e2de80c5",
+                  "id": "0ca8793f-38e9-4aa9-ba8d-d5b6e2de80c5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9934,7 +9847,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "9bcc29e9-87fc-42a2-a42a-fbbb81157f3d",
+                  "id": "9bcc29e9-87fc-42a2-a42a-fbbb81157f3d",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -9996,7 +9909,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "43703ac1-1bba-458a-9501-48c28aa3ed4b",
+                  "id": "43703ac1-1bba-458a-9501-48c28aa3ed4b",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10022,8 +9935,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "7483c1d8-b612-4f21-9499-978c9905113e",
-              "_postman_isSubFolder": true
+              "id": "7483c1d8-b612-4f21-9499-978c9905113e"
             },
             {
               "name": "SSP",
@@ -10058,7 +9970,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "493591be-1651-4363-b31f-5b35625dd4b2",
+                  "id": "493591be-1651-4363-b31f-5b35625dd4b2",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10079,8 +9991,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                      "options": {}
+                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                     },
                     "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
                   },
@@ -10148,7 +10059,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0b3fb9ed-9822-4a00-8d07-882db4c184c5",
+                  "id": "0b3fb9ed-9822-4a00-8d07-882db4c184c5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10240,7 +10151,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "ac06589e-5cd2-408e-8f1b-503e8e21514d",
+                  "id": "ac06589e-5cd2-408e-8f1b-503e8e21514d",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10339,7 +10250,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "a5d55b33-65c0-42d2-aa41-1105875cb2a6",
+                  "id": "a5d55b33-65c0-42d2-aa41-1105875cb2a6",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10394,7 +10305,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "4b381976-e6ea-4808-8557-3dd10dccd161",
+                  "id": "4b381976-e6ea-4808-8557-3dd10dccd161",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10456,7 +10367,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "e55f7a96-ab1e-4b12-86e9-ba92e4880138",
+                  "id": "e55f7a96-ab1e-4b12-86e9-ba92e4880138",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10542,7 +10453,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "d13422f6-6396-4010-aaf9-66df6c41a601",
+                  "id": "d13422f6-6396-4010-aaf9-66df6c41a601",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10633,7 +10544,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "3f722e8d-f3e6-4c64-87ce-ce6c1ffe5227",
+                  "id": "3f722e8d-f3e6-4c64-87ce-ce6c1ffe5227",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10729,7 +10640,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0f7c3e54-7429-4d98-a33e-8a05a3fffb2c",
+                  "id": "0f7c3e54-7429-4d98-a33e-8a05a3fffb2c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10784,7 +10695,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "496f76a0-9191-46f6-81c5-7cbba147e860",
+                  "id": "496f76a0-9191-46f6-81c5-7cbba147e860",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10846,7 +10757,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "57f17836-0fee-43c8-94ce-a2ab0be05cb1",
+                  "id": "57f17836-0fee-43c8-94ce-a2ab0be05cb1",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10872,11 +10783,10 @@
                   "response": []
                 }
               ],
-              "_postman_id": "83859119-4fdf-4dcd-abfc-e969498ffde5",
-              "_postman_isSubFolder": true
+              "id": "83859119-4fdf-4dcd-abfc-e969498ffde5"
             }
           ],
-          "_postman_id": "69028962-af50-4900-a3a6-6a68dc7a04a3",
+          "id": "69028962-af50-4900-a3a6-6a68dc7a04a3",
           "event": [
             {
               "listen": "prerequest",
@@ -10898,8 +10808,7 @@
                 "id": "4ff54086-6783-46ab-92ce-2bd284dce5ae"
               }
             }
-          ],
-          "_postman_isSubFolder": true
+          ]
         },
         {
           "name": "Dimensions & Filters",
@@ -10937,7 +10846,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "206f8e06-1bb8-40ff-a8ba-fe6af850c8a2",
+                  "id": "206f8e06-1bb8-40ff-a8ba-fe6af850c8a2",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -10958,8 +10867,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                      "options": {}
+                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                     },
                     "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
                   },
@@ -10985,7 +10893,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "6e799de9-2e65-4d7b-b4e0-b301998bcb01",
+                  "id": "6e799de9-2e65-4d7b-b4e0-b301998bcb01",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11055,7 +10963,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "1bd540d8-0833-49d6-9f53-317efe971754",
+                  "id": "1bd540d8-0833-49d6-9f53-317efe971754",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11130,7 +11038,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "f73ccc11-4261-46ac-87f3-dd64d74093a9",
+                  "id": "f73ccc11-4261-46ac-87f3-dd64d74093a9",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11210,7 +11118,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "2407a7c5-b61a-4298-b6c7-dff48aa5e188",
+                  "id": "2407a7c5-b61a-4298-b6c7-dff48aa5e188",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11262,7 +11170,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "7a44cdf3-40c2-4d47-be21-716f5ef4d644",
+                  "id": "7a44cdf3-40c2-4d47-be21-716f5ef4d644",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11324,7 +11232,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "cefc789f-77f7-447d-ad73-11c4e692b434",
+                  "id": "cefc789f-77f7-447d-ad73-11c4e692b434",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11404,7 +11312,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "a3442af7-762d-4bf4-bcd7-14075ee14ea4",
+                  "id": "a3442af7-762d-4bf4-bcd7-14075ee14ea4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11489,7 +11397,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0abd6b0e-9e10-43b8-a2d9-24487d75a0d4",
+                  "id": "0abd6b0e-9e10-43b8-a2d9-24487d75a0d4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11569,7 +11477,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "c8dce341-58a3-4552-8ac8-cea6696b9fd1",
+                  "id": "c8dce341-58a3-4552-8ac8-cea6696b9fd1",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11621,7 +11529,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "6d4c2dce-b751-4de6-8679-5405066e03a1",
+                  "id": "6d4c2dce-b751-4de6-8679-5405066e03a1",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11683,7 +11591,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "deae7f13-1915-4631-a87e-2a05b030fba4",
+                  "id": "deae7f13-1915-4631-a87e-2a05b030fba4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11709,8 +11617,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "05158a59-2e8c-42e1-9f16-03acb27ff5f9",
-              "_postman_isSubFolder": true
+              "id": "05158a59-2e8c-42e1-9f16-03acb27ff5f9"
             },
             {
               "name": "SSP",
@@ -11745,7 +11652,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "ab3910b6-eec7-4087-a856-f158ffcf2e0b",
+                  "id": "ab3910b6-eec7-4087-a856-f158ffcf2e0b",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11766,8 +11673,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-                      "options": {}
+                      "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
                     },
                     "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
                   },
@@ -11818,7 +11724,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "989b2370-b43d-4b9c-80ec-e2168267cadd",
+                  "id": "989b2370-b43d-4b9c-80ec-e2168267cadd",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11893,7 +11799,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0f67c313-f7ed-4747-942d-256331151083",
+                  "id": "0f67c313-f7ed-4747-942d-256331151083",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -11995,7 +11901,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "58f7da20-ec33-4122-8094-b84f5ba068a6",
+                  "id": "58f7da20-ec33-4122-8094-b84f5ba068a6",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12047,7 +11953,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "5e5c6614-7601-4c73-bd90-741b2384927d",
+                  "id": "5e5c6614-7601-4c73-bd90-741b2384927d",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12109,7 +12015,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "da8bb03d-57c3-4eb5-ba4c-fd99733ab979",
+                  "id": "da8bb03d-57c3-4eb5-ba4c-fd99733ab979",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12189,7 +12095,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "e8c11104-b953-4c3c-b8b5-4b107a7693d4",
+                  "id": "e8c11104-b953-4c3c-b8b5-4b107a7693d4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12274,7 +12180,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "348c6625-fd60-41cc-883b-db83142b1703",
+                  "id": "348c6625-fd60-41cc-883b-db83142b1703",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12376,7 +12282,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "c4befa2c-a276-407f-a2e5-d5e05c9b3ed5",
+                  "id": "c4befa2c-a276-407f-a2e5-d5e05c9b3ed5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12428,7 +12334,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "8e7c2d6f-3ecd-462a-810e-5689c5fbce48",
+                  "id": "8e7c2d6f-3ecd-462a-810e-5689c5fbce48",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12490,7 +12396,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "29624a5c-7cde-4325-891d-9ad16431c73e",
+                  "id": "29624a5c-7cde-4325-891d-9ad16431c73e",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12548,7 +12454,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "329d1a54-ebe4-426f-b697-dee511d176fe",
+                  "id": "329d1a54-ebe4-426f-b697-dee511d176fe",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -12566,15 +12472,13 @@
                   "response": []
                 }
               ],
-              "_postman_id": "5e0659da-fbad-4c23-a567-fa9f741a5c09",
-              "_postman_isSubFolder": true
+              "id": "5e0659da-fbad-4c23-a567-fa9f741a5c09"
             }
           ],
-          "_postman_id": "e60f3f98-b6e2-40aa-962c-e0d048c9a4be",
-          "_postman_isSubFolder": true
+          "id": "e60f3f98-b6e2-40aa-962c-e0d048c9a4be"
         }
       ],
-      "_postman_id": "0cb3cfd6-f5c5-4073-aca9-b7e0c675f5cf",
+      "id": "0cb3cfd6-f5c5-4073-aca9-b7e0c675f5cf",
       "event": [
         {
           "listen": "prerequest",
@@ -12649,7 +12553,7 @@
               }
             }
           ],
-          "_postman_id": "c21d7838-82ea-4cbe-a444-5199fbbe5519",
+          "id": "c21d7838-82ea-4cbe-a444-5199fbbe5519",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -12666,8 +12570,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}",
-              "options": {}
+              "raw": "{\n    \"email\": \"admin@admin.com\",\n    \"password\": \"7895123\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/auth/login"
           },
@@ -12702,7 +12605,7 @@
               }
             }
           ],
-          "_postman_id": "4b8cf39a-148b-47e4-8665-708aa18a8fbd",
+          "id": "4b8cf39a-148b-47e4-8665-708aa18a8fbd",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -12722,8 +12625,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"ACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}",
-              "options": {}
+              "raw": "{\n  \"name\": \"Postman: Demand Partner {{currentSprint}} {{startTimestamp}}\",\n  \"auctionMode\": \"FIRST_PRICE\",\n  \"contacts\": {},\n  \"ortbVersion\": \"V2_3\",\n  \"requestFilter\": {\n    \"adTypes\": [],\n     \"countries\": [],\n    \"sizes\": [],\n    \"ssps\": {\n      \"allow\": true,\n      \"values\": []\n    }\n  },\n  \"status\": \"ACTIVE\",\n  \"type\": \"RTB\",\n  \"url\": \"http://qa.com\",\n  \"pricingStrategy\": \"FULL_PRICE\",\n  \"targetingsConj\": \"AND\"\n}"
             },
             "url": "{{protocol}}{{server}}.{{domain}}/api/{{api_version}}/dsps"
           },
@@ -12754,7 +12656,7 @@
               }
             }
           ],
-          "_postman_id": "cd678d19-5d99-46a4-bf8a-c0b0ff68785f",
+          "id": "cd678d19-5d99-46a4-bf8a-c0b0ff68785f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -12820,7 +12722,7 @@
               }
             }
           ],
-          "_postman_id": "3a0b9b5d-77c1-46dd-be49-9637abb9538d",
+          "id": "3a0b9b5d-77c1-46dd-be49-9637abb9538d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -12891,7 +12793,7 @@
               }
             }
           ],
-          "_postman_id": "19b9f525-a607-4dbe-8d52-b519303ed2e8",
+          "id": "19b9f525-a607-4dbe-8d52-b519303ed2e8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -12960,7 +12862,7 @@
               }
             }
           ],
-          "_postman_id": "16ba9268-1ac9-4427-aaf7-50a9de368127",
+          "id": "16ba9268-1ac9-4427-aaf7-50a9de368127",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13029,7 +12931,7 @@
               }
             }
           ],
-          "_postman_id": "22ac235b-bc0a-44ed-8007-207f20357d66",
+          "id": "22ac235b-bc0a-44ed-8007-207f20357d66",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13099,7 +13001,7 @@
               }
             }
           ],
-          "_postman_id": "c625cdc5-86b6-4464-bbcb-a81eece8751c",
+          "id": "c625cdc5-86b6-4464-bbcb-a81eece8751c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13169,7 +13071,7 @@
               }
             }
           ],
-          "_postman_id": "3dd3eea7-e4d9-4c18-9725-e56163adabe5",
+          "id": "3dd3eea7-e4d9-4c18-9725-e56163adabe5",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13237,7 +13139,7 @@
               }
             }
           ],
-          "_postman_id": "4b5b192b-d3e0-471c-9e27-85710c782bee",
+          "id": "4b5b192b-d3e0-471c-9e27-85710c782bee",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13284,7 +13186,7 @@
               }
             }
           ],
-          "_postman_id": "f622d5f7-8ecb-4bc6-9d85-ee4492eb152c",
+          "id": "f622d5f7-8ecb-4bc6-9d85-ee4492eb152c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13336,7 +13238,7 @@
               }
             }
           ],
-          "_postman_id": "fc450d2c-9095-4d18-8b4f-bedd86d5a1ce",
+          "id": "fc450d2c-9095-4d18-8b4f-bedd86d5a1ce",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13391,7 +13293,7 @@
               }
             }
           ],
-          "_postman_id": "2f14340b-7539-4926-86a5-fc0e32722fa3",
+          "id": "2f14340b-7539-4926-86a5-fc0e32722fa3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13446,7 +13348,7 @@
               }
             }
           ],
-          "_postman_id": "44211b31-2e35-42b4-b9be-12a99757e218",
+          "id": "44211b31-2e35-42b4-b9be-12a99757e218",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13501,7 +13403,7 @@
               }
             }
           ],
-          "_postman_id": "96d60798-277e-4c58-8c1c-a8371111779d",
+          "id": "96d60798-277e-4c58-8c1c-a8371111779d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13551,7 +13453,7 @@
               }
             }
           ],
-          "_postman_id": "b20db40a-487d-45cb-b1ec-5e4658a713e9",
+          "id": "b20db40a-487d-45cb-b1ec-5e4658a713e9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13601,7 +13503,7 @@
               }
             }
           ],
-          "_postman_id": "ce0288e4-3bef-4417-9b01-0c4d9779e5da",
+          "id": "ce0288e4-3bef-4417-9b01-0c4d9779e5da",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13656,7 +13558,7 @@
               }
             }
           ],
-          "_postman_id": "64dce4f9-4d46-462d-b5e0-4264a89c0b79",
+          "id": "64dce4f9-4d46-462d-b5e0-4264a89c0b79",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13714,7 +13616,7 @@
               }
             }
           ],
-          "_postman_id": "518af480-790f-417b-aeed-1282e1508fc9",
+          "id": "518af480-790f-417b-aeed-1282e1508fc9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13775,7 +13677,7 @@
               }
             }
           ],
-          "_postman_id": "60ad55db-e799-4f65-8ea3-c4e3fe88e1b0",
+          "id": "60ad55db-e799-4f65-8ea3-c4e3fe88e1b0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13836,7 +13738,7 @@
               }
             }
           ],
-          "_postman_id": "e9b3be59-d849-4fcf-8e7d-b37be47bb57b",
+          "id": "e9b3be59-d849-4fcf-8e7d-b37be47bb57b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13894,7 +13796,7 @@
               }
             }
           ],
-          "_postman_id": "cd3ac9e5-cb72-47de-bf30-539ab40d4586",
+          "id": "cd3ac9e5-cb72-47de-bf30-539ab40d4586",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13955,7 +13857,7 @@
               }
             }
           ],
-          "_postman_id": "6e2e6562-f6ee-47cd-9e99-b5e0fddb4a6b",
+          "id": "6e2e6562-f6ee-47cd-9e99-b5e0fddb4a6b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14016,7 +13918,7 @@
               }
             }
           ],
-          "_postman_id": "be4db58f-c4e5-4776-a84c-d6acac54d34f",
+          "id": "be4db58f-c4e5-4776-a84c-d6acac54d34f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14077,7 +13979,7 @@
               }
             }
           ],
-          "_postman_id": "bfcda8a0-5270-4e78-baae-10ff44884c42",
+          "id": "bfcda8a0-5270-4e78-baae-10ff44884c42",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14143,7 +14045,7 @@
               }
             }
           ],
-          "_postman_id": "fbe2eb70-1918-427c-a61b-0a588fd7c4f8",
+          "id": "fbe2eb70-1918-427c-a61b-0a588fd7c4f8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14192,7 +14094,7 @@
               }
             }
           ],
-          "_postman_id": "62f5aa7d-e130-4f3d-bab4-226bd5df04b0",
+          "id": "62f5aa7d-e130-4f3d-bab4-226bd5df04b0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14246,7 +14148,7 @@
               }
             }
           ],
-          "_postman_id": "8dc067f1-6c5f-4b83-8218-108cdaaca635",
+          "id": "8dc067f1-6c5f-4b83-8218-108cdaaca635",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14303,7 +14205,7 @@
               }
             }
           ],
-          "_postman_id": "39a42951-de31-4db2-b25f-93fb3a824c85",
+          "id": "39a42951-de31-4db2-b25f-93fb3a824c85",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14359,7 +14261,7 @@
               }
             }
           ],
-          "_postman_id": "ab813272-e095-4654-8cef-1cc0842fbe10",
+          "id": "ab813272-e095-4654-8cef-1cc0842fbe10",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14415,7 +14317,7 @@
               }
             }
           ],
-          "_postman_id": "1a589725-7f28-4eb4-98f4-e969a8ff7978",
+          "id": "1a589725-7f28-4eb4-98f4-e969a8ff7978",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14470,7 +14372,7 @@
               }
             }
           ],
-          "_postman_id": "00f500b4-760a-49f5-8d9a-a7eb824b1347",
+          "id": "00f500b4-760a-49f5-8d9a-a7eb824b1347",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14526,7 +14428,7 @@
               }
             }
           ],
-          "_postman_id": "c66aa235-87e6-426a-b594-e084e92d6ff0",
+          "id": "c66aa235-87e6-426a-b594-e084e92d6ff0",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14566,7 +14468,7 @@
               }
             }
           ],
-          "_postman_id": "8aaf7bc4-3235-4071-84d7-f0fb849332b1",
+          "id": "8aaf7bc4-3235-4071-84d7-f0fb849332b1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14603,7 +14505,7 @@
               }
             }
           ],
-          "_postman_id": "fe96ffd6-1448-454c-a2bf-7f4a6ad6b38d",
+          "id": "fe96ffd6-1448-454c-a2bf-7f4a6ad6b38d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14650,7 +14552,7 @@
               }
             }
           ],
-          "_postman_id": "5a29e459-0337-4507-9d03-db6c19c57ae5",
+          "id": "5a29e459-0337-4507-9d03-db6c19c57ae5",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14700,7 +14602,7 @@
               }
             }
           ],
-          "_postman_id": "d36df7c1-fbac-42e5-b4a1-b6c0189e68d1",
+          "id": "d36df7c1-fbac-42e5-b4a1-b6c0189e68d1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14750,7 +14652,7 @@
               }
             }
           ],
-          "_postman_id": "4cd45cf8-2939-40c1-9eff-8e49a928af57",
+          "id": "4cd45cf8-2939-40c1-9eff-8e49a928af57",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14800,7 +14702,7 @@
               }
             }
           ],
-          "_postman_id": "004c41d0-8d1a-489d-bfdf-becb563e87ef",
+          "id": "004c41d0-8d1a-489d-bfdf-becb563e87ef",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14850,7 +14752,7 @@
               }
             }
           ],
-          "_postman_id": "6d6ef865-1e3a-42dd-9718-49621aecff04",
+          "id": "6d6ef865-1e3a-42dd-9718-49621aecff04",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14900,7 +14802,7 @@
               }
             }
           ],
-          "_postman_id": "b32225ff-1faa-48cc-bd0f-89ddca492b9a",
+          "id": "b32225ff-1faa-48cc-bd0f-89ddca492b9a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14940,7 +14842,7 @@
               }
             }
           ],
-          "_postman_id": "c1f4693a-1532-4485-92a9-da1ca4ceb48b",
+          "id": "c1f4693a-1532-4485-92a9-da1ca4ceb48b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -14977,7 +14879,7 @@
               }
             }
           ],
-          "_postman_id": "8af161c4-7e4b-4f17-8f51-b110b3c2f55b",
+          "id": "8af161c4-7e4b-4f17-8f51-b110b3c2f55b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15024,7 +14926,7 @@
               }
             }
           ],
-          "_postman_id": "c15da575-f944-47b6-860e-b60d860f5e0b",
+          "id": "c15da575-f944-47b6-860e-b60d860f5e0b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15074,7 +14976,7 @@
               }
             }
           ],
-          "_postman_id": "de8520c4-e28a-411a-8f2d-617a97f8fd1b",
+          "id": "de8520c4-e28a-411a-8f2d-617a97f8fd1b",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15124,7 +15026,7 @@
               }
             }
           ],
-          "_postman_id": "584bffcf-0432-430c-ac8a-64c41dd5436e",
+          "id": "584bffcf-0432-430c-ac8a-64c41dd5436e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15174,7 +15076,7 @@
               }
             }
           ],
-          "_postman_id": "7cc9446f-632a-455a-bef3-e840982858c9",
+          "id": "7cc9446f-632a-455a-bef3-e840982858c9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15224,7 +15126,7 @@
               }
             }
           ],
-          "_postman_id": "31334e09-e8d4-4249-930f-5249cfb42537",
+          "id": "31334e09-e8d4-4249-930f-5249cfb42537",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15274,7 +15176,7 @@
               }
             }
           ],
-          "_postman_id": "8724971b-9cf1-49f8-ad40-d5be4a97a17f",
+          "id": "8724971b-9cf1-49f8-ad40-d5be4a97a17f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -15300,7 +15202,7 @@
           "response": []
         }
       ],
-      "_postman_id": "53f79c7e-fe9c-41d9-866e-52e08844bbec"
+      "id": "53f79c7e-fe9c-41d9-866e-52e08844bbec"
     }
   ]
 }
