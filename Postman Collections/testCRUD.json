@@ -857,6 +857,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "ab2bef9e-b721-4620-8938-e6e55e4106b9",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -871,18 +872,17 @@
                   "var jsonData = JSON.parse(responseBody);",
                   "pm.environment.set(\"publisherId\", jsonData.id);"
                 ],
-                "type": "text/javascript",
-                "id": "ab2bef9e-b721-4620-8938-e6e55e4106b9"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "946a09a6-f08d-4f1e-9c27-0997451bb3fb",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "946a09a6-f08d-4f1e-9c27-0997451bb3fb"
+                "type": "text/javascript"
               }
             }
           ],
@@ -909,7 +909,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"status\": \"ACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"targetingsConj\": \"AND\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
