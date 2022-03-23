@@ -1697,6 +1697,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "52af67f5-e0f3-47bb-ac1c-66c25c15a184",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 400\"] = responseCode.code === 400;",
@@ -1708,18 +1709,17 @@
                   "});",
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "52af67f5-e0f3-47bb-ac1c-66c25c15a184"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "8cbfe53e-036f-45f4-b798-7d9405a0abee",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "8cbfe53e-036f-45f4-b798-7d9405a0abee"
+                "type": "text/javascript"
               }
             }
           ],
@@ -1746,7 +1746,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": null,\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": null,\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"exchangeType\": \"RTB\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
