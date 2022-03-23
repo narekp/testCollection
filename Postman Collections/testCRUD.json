@@ -1110,6 +1110,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "5f587169-ebde-429a-8fca-3949d8c6bb69",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -1120,18 +1121,17 @@
                   "    pm.expect(pm.response.text()).to.include(\"\\\"status\\\":\\\"INACTIVE\");",
                   "});"
                 ],
-                "type": "text/javascript",
-                "id": "5f587169-ebde-429a-8fca-3949d8c6bb69"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "55f66b74-3758-42e5-b741-e86a08cf7301",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "55f66b74-3758-42e5-b741-e86a08cf7301"
+                "type": "text/javascript"
               }
             }
           ],
@@ -1158,7 +1158,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"type\": \"PUBLISHER\",\n    \"externalId\": \"71134469\",\n    \"status\": \"INACTIVE\",\n    \"name\": \"Postman: Publisher Sprint 8 2020-11-30T13:03:03.801Z\",\n    \"contacts\": {\n        \"responsiblePerson\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"skype\": null,\n        \"country\": null\n    },\n    \"thirdPartyAdm\": \"\",\n    \"thirdPartyAdmEnabled\": false,\n    \"dsps\": null,\n    \"requiredAdmResponse\": null,\n    \"domain\": \"qa.com\",\n    \"paymentTerm\": null,\n    \"paymentDetails\": \"\",\n    \"group\": null,\n    \"marginPercentage\": null,\n    \"tmax\": null,\n    \"sellerType\": \"INTERMEDIARY\",\n    \"adInsertion\": null,\n    \"thirdPartyId\": null,\n    \"xandrPlacementId\": null,\n    \"publisherExchanges\": [],\n    \"logoBase64\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"adsTxtEntry\": \"ads-test3.env.geomotiv.com, 71134469, DIRECT\",\n    \"blackLists\": {\n        \"ips\": null,\n        \"advDomains\": null,\n        \"appBundles\": null,\n        \"creativeIds\": null,\n        \"siteDomains\": null,\n        \"categories\": {\n            \"allow\": false,\n            \"values\": []\n        }\n    },\n    \"rtbVersion\": null,\n    \"publisherType\": \"TAG_ONLY\",\n    \"supplySources\": [],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"adPod\": {\n        \"adPodDuration\": null,\n        \"adPodCount\": null,\n        \"adPodType\": null,\n        \"responseMode\": null,\n        \"adPodLayouts\": [],\n        \"serveIncomplete\": false,\n        \"fallbackMode\": false,\n        \"deduplicationTypes\": []\n    },\n    \"secured\": false,\n    \"fraudRiskThreshold\": null,\n    \"includePixalateBeacon\": null,\n    \"pixalateBeaconChance\": null,\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"type\": \"PUBLISHER\",\n    \"externalId\": \"71134469\",\n    \"status\": \"INACTIVE\",\n    \"name\": \"Postman: Publisher Sprint 8 2020-11-30T13:03:03.801Z\",\n    \"contacts\": {\n        \"responsiblePerson\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"skype\": null,\n        \"country\": null\n    },\n    \"thirdPartyAdm\": \"\",\n    \"thirdPartyAdmEnabled\": false,\n    \"dsps\": null,\n    \"requiredAdmResponse\": null,\n    \"domain\": \"qa.com\",\n    \"paymentTerm\": null,\n    \"paymentDetails\": \"\",\n    \"group\": null,\n    \"marginPercentage\": null,\n    \"tmax\": null,\n    \"sellerType\": \"INTERMEDIARY\",\n    \"adInsertion\": null,\n    \"thirdPartyId\": null,\n    \"xandrPlacementId\": null,\n    \"publisherExchanges\": [],\n    \"logoBase64\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"adsTxtEntry\": \"ads-test3.env.geomotiv.com, 71134469, DIRECT\",\n    \"blackLists\": {\n        \"ips\": null,\n        \"advDomains\": null,\n        \"appBundles\": null,\n        \"creativeIds\": null,\n        \"siteDomains\": null,\n        \"categories\": {\n            \"allow\": false,\n            \"values\": []\n        }\n    },\n    \"rtbVersion\": null,\n    \"publisherType\": \"TAG_ONLY\",\n    \"supplySources\": [],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"adPod\": {\n        \"adPodDuration\": null,\n        \"adPodCount\": null,\n        \"adPodType\": null,\n        \"responseMode\": null,\n        \"adPodLayouts\": [],\n        \"serveIncomplete\": false,\n        \"fallbackMode\": false,\n        \"deduplicationTypes\": []\n    },\n    \"secured\": false,\n    \"fraudRiskThreshold\": null,\n    \"includePixalateBeacon\": null,\n    \"pixalateBeaconChance\": null,\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    }\n}",
               "options": {
                 "raw": {
                   "language": "json"
