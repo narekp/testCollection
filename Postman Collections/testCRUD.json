@@ -2200,19 +2200,19 @@
             {
               "listen": "test",
               "script": {
+                "id": "fe9acb90-2e4a-4a1d-bee7-3996771526df",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 400\"] = responseCode.code === 400;",
                   "",
                   "//Content",
                   "pm.test(\"Error message contains:\", function () {",
-                  "    pm.expect(pm.response.text()).to.include(\"value not one of declared Enum instance names: [DESKTOP_WEB, CTV_OTT]\");",
+                  "    pm.expect(pm.response.text()).to.include(\"not one of the values accepted for Enum class: [DESKTOP_WEB, CTV_OTT]\");",
                   "});",
                   "",
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "fe9acb90-2e4a-4a1d-bee7-3996771526df"
+                "type": "text/javascript"
               }
             }
           ],
