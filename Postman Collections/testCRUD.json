@@ -1280,7 +1280,7 @@
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
                   "",
-                  "//Content",
+                  "//Content publisherExchanges",
                   "pm.test(\"Contains\", function () {",
                   "    pm.expect(pm.response.text()).to.include(\"\\\"publisherExchanges\\\"\");",
                   "    pm.expect(pm.response.text()).to.include(\"\\\"publisherExchangeId\\\"\");",
@@ -1331,7 +1331,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"INACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"publisherExchanges\": [\n        {\n            \"exchangeId\": 25239,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        },\n        {\n            \"exchangeId\": 80563,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        }\n    ],\n    \"targetingsConj\": \"AND\",\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    }\n}",
+              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"INACTIVE\",\n    \"type\": \"PUBLISHER\", //EXCHANGE\n    \"publisherExchanges\": [\n        {\n            \"exchangeId\": 25239,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        },\n        {\n            \"exchangeId\": 80563,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        }\n    ],\n    \"targetingsConj\": \"AND\"/*,\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"exchangeType\": \"RTB\",\n    \"pricingStrategy\": \"FIXED_PRICE\"*/\n}",
               "options": {
                 "raw": {
                   "language": "json"
