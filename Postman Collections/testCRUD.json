@@ -1275,6 +1275,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "b73b8a0a-2db0-41d3-aa59-cfba56e2b820",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -1293,18 +1294,17 @@
                   "var jsonData = JSON.parse(responseBody);",
                   "pm.environment.set(\"publisherId\", jsonData.id);"
                 ],
-                "type": "text/javascript",
-                "id": "b73b8a0a-2db0-41d3-aa59-cfba56e2b820"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "37ffa305-7112-4dea-8245-3f9fe302df03",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "37ffa305-7112-4dea-8245-3f9fe302df03"
+                "type": "text/javascript"
               }
             }
           ],
@@ -1331,7 +1331,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"INACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"publisherExchanges\": [\n        {\n            \"exchangeId\": 25239,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        },\n        {\n            \"exchangeId\": 80563,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        }\n    ],\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"name\": \"Postman: Publisher {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"INACTIVE\",\n    \"type\": \"PUBLISHER\",\n    \"publisherExchanges\": [\n        {\n            \"exchangeId\": 25239,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        },\n        {\n            \"exchangeId\": 80563,\n            \"publisherExchangeId\": \"{{currentSprint}} {{startTimestamp}}\"\n        }\n    ],\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    }\n}",
               "options": {
                 "raw": {
                   "language": "json"
