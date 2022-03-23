@@ -1580,7 +1580,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "//creates a Supply Partner of type RTB\n{\n    \"name\": \"Postman: SSP {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": \"FIXED_PRICE\",\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"exchangeType\": \"RTB\"\n}",
+              "raw": "{\n    \"name\": \"Postman: SSP {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": \"FIXED_PRICE\",\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"exchangeType\": \"RTB\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
