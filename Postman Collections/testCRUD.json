@@ -1175,22 +1175,22 @@
             {
               "listen": "test",
               "script": {
+                "id": "846b3c83-9feb-40cf-83f8-3bca4e4d1c8f",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;"
                 ],
-                "type": "text/javascript",
-                "id": "846b3c83-9feb-40cf-83f8-3bca4e4d1c8f"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "c6667092-ab6e-46f1-9821-373626536daf",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "c6667092-ab6e-46f1-9821-373626536daf"
+                "type": "text/javascript"
               }
             }
           ],
