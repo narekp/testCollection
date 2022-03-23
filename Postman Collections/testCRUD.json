@@ -1046,6 +1046,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "434bb8bb-a511-4303-95fe-c4e498ed1d71",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -1055,18 +1056,17 @@
                   "    pm.expect(pm.response.text()).to.include(\"\\\"allow\\\":true,\\\"values\\\":[25445]\");    ",
                   "});"
                 ],
-                "type": "text/javascript",
-                "id": "434bb8bb-a511-4303-95fe-c4e498ed1d71"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "b09a6b8b-3f0c-4d7d-82a4-08236187a06f",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "b09a6b8b-3f0c-4d7d-82a4-08236187a06f"
+                "type": "text/javascript"
               }
             }
           ],
@@ -1093,7 +1093,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"type\": \"PUBLISHER\",\n    \"externalId\": \"71134469\",\n    \"status\": \"ACTIVE\",\n    \"name\": \"Postman: Publisher Sprint 8 2020-11-30T13:03:03.801Z\",\n    \"contacts\": {\n        \"responsiblePerson\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"skype\": null,\n        \"country\": null\n    },\n    \"thirdPartyAdm\": \"\",\n    \"thirdPartyAdmEnabled\": false,\n     \"dsps\": {\n        \"allow\": true,\n        \"values\": [\n            25445\n        ]\n    },\n    \"requiredAdmResponse\": null,\n    \"domain\": \"qa.com\",\n    \"paymentTerm\": null,\n    \"paymentDetails\": \"\",\n    \"group\": null,\n    \"marginPercentage\": null,\n    \"tmax\": null,\n    \"sellerType\": \"INTERMEDIARY\",\n    \"adInsertion\": null,\n    \"thirdPartyId\": null,\n    \"xandrPlacementId\": null,\n    \"publisherExchanges\": [],\n    \"logoBase64\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"adsTxtEntry\": \"ads-test3.env.geomotiv.com, 71134469, DIRECT\",\n    \"blackLists\": {\n        \"ips\": null,\n        \"advDomains\": null,\n        \"appBundles\": null,\n        \"creativeIds\": null,\n        \"siteDomains\": null,\n        \"categories\": {\n            \"allow\": false,\n            \"values\": []\n        }\n    },\n    \"rtbVersion\": null,\n    \"publisherType\": \"TAG_ONLY\",\n    \"supplySources\": [],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"adPod\": {\n        \"adPodDuration\": null,\n        \"adPodCount\": null,\n        \"adPodType\": null,\n        \"responseMode\": null,\n        \"adPodLayouts\": [],\n        \"serveIncomplete\": false,\n        \"fallbackMode\": false,\n        \"deduplicationTypes\": []\n    },\n    \"secured\": false,\n    \"fraudRiskThreshold\": null,\n    \"includePixalateBeacon\": null,\n    \"pixalateBeaconChance\": null,\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"type\": \"PUBLISHER\",\n    \"externalId\": \"71134469\",\n    \"status\": \"ACTIVE\",\n    \"name\": \"Postman: Publisher Sprint 8 2020-11-30T13:03:03.801Z\",\n    \"contacts\": {\n        \"responsiblePerson\": null,\n        \"email\": null,\n        \"phone\": null,\n        \"skype\": null,\n        \"country\": null\n    },\n    \"thirdPartyAdm\": \"\",\n    \"thirdPartyAdmEnabled\": false,\n     \"dsps\": {\n        \"allow\": true,\n        \"values\": [\n            25445\n        ]\n    },\n    \"requiredAdmResponse\": null,\n    \"domain\": \"qa.com\",\n    \"paymentTerm\": null,\n    \"paymentDetails\": \"\",\n    \"group\": null,\n    \"marginPercentage\": null,\n    \"tmax\": null,\n    \"sellerType\": \"INTERMEDIARY\",\n    \"adInsertion\": null,\n    \"thirdPartyId\": null,\n    \"xandrPlacementId\": null,\n    \"publisherExchanges\": [],\n    \"logoBase64\": null,\n    \"sharedForAll\": false,\n    \"sharedSettings\": [],\n    \"adsTxtEntry\": \"ads-test3.env.geomotiv.com, 71134469, DIRECT\",\n    \"blackLists\": {\n        \"ips\": null,\n        \"advDomains\": null,\n        \"appBundles\": null,\n        \"creativeIds\": null,\n        \"siteDomains\": null,\n        \"categories\": {\n            \"allow\": false,\n            \"values\": []\n        }\n    },\n    \"rtbVersion\": null,\n    \"publisherType\": \"TAG_ONLY\",\n    \"supplySources\": [],\n    \"thirdPartyImpressionBeacons\": [],\n    \"thirdPartyBeacons\": [],\n    \"adPod\": {\n        \"adPodDuration\": null,\n        \"adPodCount\": null,\n        \"adPodType\": null,\n        \"responseMode\": null,\n        \"adPodLayouts\": [],\n        \"serveIncomplete\": false,\n        \"fallbackMode\": false,\n        \"deduplicationTypes\": []\n    },\n    \"secured\": false,\n    \"fraudRiskThreshold\": null,\n    \"includePixalateBeacon\": null,\n    \"pixalateBeaconChance\": null,\n    \"targetingsConj\": \"AND\",\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    }\n}",
               "options": {
                 "raw": {
                   "language": "json"
