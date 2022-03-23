@@ -1526,6 +1526,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "e22aed26-ca56-4c20-ae2f-340ac15b3c73",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -1542,18 +1543,17 @@
                   "var jsonData = JSON.parse(responseBody);",
                   "pm.environment.set(\"sspId\", jsonData.id);"
                 ],
-                "type": "text/javascript",
-                "id": "e22aed26-ca56-4c20-ae2f-340ac15b3c73"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "fbba3b57-ddc7-4599-85f6-879bd687277e",
                 "exec": [
                   ""
                 ],
-                "type": "text/javascript",
-                "id": "fbba3b57-ddc7-4599-85f6-879bd687277e"
+                "type": "text/javascript"
               }
             }
           ],
@@ -1580,7 +1580,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"Postman: SSP {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": \"FIXED_PRICE\",\n    \"targetingsConj\": \"AND\"\n}",
+              "raw": "{\n    \"name\": \"Postman: SSP {{currentSprint}} {{startTimestamp}}\",\n    \"contacts\": {},\n    \"domain\": \"qa.com\",\n    \"paymentDetails\": \"\",\n    \"paymentTerm\": null,\n    \"sellerType\": \"PUBLISHER\",\n    \"status\": \"ACTIVE\",\n    \"type\": \"EXCHANGE\",\n    \"pricingStrategy\": \"FIXED_PRICE\",\n    \"targetingsConj\": \"AND\",\n\n     \"sellersJsonSettings\": \n    {\n        \"sellerType\": \"PUBLISHER\"\n    },\n    \"exchangeType\": \"RTB\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
