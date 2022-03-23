@@ -2106,6 +2106,7 @@
             {
               "listen": "test",
               "script": {
+                "id": "3482e509-2d1e-47a8-929d-501eca4b4872",
                 "exec": [
                   "//Status code",
                   "tests[\"Status code is 200\"] = responseCode.code === 200;",
@@ -2121,8 +2122,7 @@
                   "var jsonData = JSON.parse(responseBody);",
                   "pm.environment.set(\"siteAppId\", jsonData.id);"
                 ],
-                "type": "text/javascript",
-                "id": "3482e509-2d1e-47a8-929d-501eca4b4872"
+                "type": "text/javascript"
               }
             }
           ],
@@ -2146,7 +2146,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"id\": null,\n    \"name\": \"Postman: SiteApp {{currentSprint}} {{startTimestamp}}\",\n    \"domain\": null,\n    \"languages\": [],\n    \"ssp\": 1977267,\n    \"publisherInventories\": [\n        {\n            \"exchangeId\": 70173,\n            \"exchangeInventoryId\": \"{{startTimestamp}}\"\n        }\n    ],\n    \"status\": \"INACTIVE\",\n    \"type\": \"CTV_OTT\"\n}",
+              "raw": "//What are publisher inventories \n//FAILD: Expectedto include 'publisherInventories', Site/app is still created\n//What are exchangeId\" and \"exchangeInventoryId\" in publisherInventories\n\n{\n    \"id\": null,\n    \"name\": \"Postman: SiteApp {{currentSprint}} {{startTimestamp}}\",\n    \"domain\": null,\n    \"languages\": [],\n    \"ssp\": 1977267,\n    \"publisherInventories\": [\n        {\n            \"exchangeId\": 70173,\n            \"exchangeInventoryId\": \"{{startTimestamp}}\"\n        }\n    ],\n    \"status\": \"INACTIVE\",\n    \"type\": \"CTV_OTT\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
