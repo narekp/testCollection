@@ -17,7 +17,7 @@
                 "id": "600e5775-8e00-4aa7-a793-c81073cf6f9c",
                 "exec": [
                   "//Status code",
-                  "tests[\"Status code is 200\"] = responseCode.code === 20055;",
+                  "tests[\"Status code is 200\"] = responseCode.code === 200;",
                   "",
                   "//No error message",
                   "pm.test(\"No error message\", function () {",
