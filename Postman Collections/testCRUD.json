@@ -14,9 +14,10 @@
             {
               "listen": "test",
               "script": {
+                "id": "600e5775-8e00-4aa7-a793-c81073cf6f9c",
                 "exec": [
                   "//Status code",
-                  "tests[\"Status code is 200\"] = responseCode.code === 200;",
+                  "tests[\"Status code is 200\"] = responseCode.code === 20055;",
                   "",
                   "//No error message",
                   "pm.test(\"No error message\", function () {",
@@ -40,19 +41,18 @@
                   "var jsonData = JSON.parse(responseBody);",
                   "pm.environment.set(\"token\", jsonData.token);"
                 ],
-                "type": "text/javascript",
-                "id": "600e5775-8e00-4aa7-a793-c81073cf6f9c"
+                "type": "text/javascript"
               }
             },
             {
               "listen": "prerequest",
               "script": {
+                "id": "36bdde89-96e6-4697-b97b-665c8be63d25",
                 "exec": [
                   "//Save current time before start",
                   "pm.environment.set(\"startTimestamp\", (new Date()).toISOString());"
                 ],
-                "type": "text/javascript",
-                "id": "36bdde89-96e6-4697-b97b-665c8be63d25"
+                "type": "text/javascript"
               }
             }
           ],
